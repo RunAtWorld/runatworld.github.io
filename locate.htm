@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>locate</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script src="script/jquery.js" type="text/javascript"></script>
+    <!-- http://api.map.baidu.com/api?v=2.0&ak=您的密钥" -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0B3c1575c78bfb0d1c52a0660cae3491"></script>
+    <script type="text/javascript" src="http://developer.baidu.com/map/custom/stylelist.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/LuShu/1.2/src/LuShu_min.js"></script>
+</head>
+<body>
+
+                <div class="boxmap" id="container">
+
+          
+
+
+    
+    <script type="text/javascript">
+        var setindex = 0;
+        var map = new BMap.Map("container");            // 创建Map实例
+        var point = new BMap.Point(114.338053,30.583184);    // 创建点坐标 为我们的教室的坐标
+        var marker = new BMap.Marker(point);  // 创建标注，标注到我们教室
+		map.enableScrollWheelZoom();
+        map.addOverlay(marker);              // 将标注添加到地图中
+        map.centerAndZoom(point, 12);         // 初始化地图,设置中心点坐标和地图级别。
+        map.addControl(new BMap.MapTypeControl({ anchor: BMAP_ANCHOR_TOP_RIGHT, offset: new BMap.Size(20, 10) }));
+       map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+       map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+      map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+       map.addControl(new BMap.OverviewMapControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: 1 }));
+        var sContent =
+"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>湖北大学(武昌主校区)物电大楼计信学院 </h4>"  +
+"</div>";
+        var infoWindow = new BMap.InfoWindow(sContent);  // 创建信息窗口对象
+        map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+        function getInfoW(obj) {
+            var startPlaceInfowin = new BMap.InfoWindow("</br>" + obj.title + "</br>" + obj.address + "<p class='t-c'><input value='选为起点' type='button'    onclick='startPlaceDeter();' /></p>");
+            return startPlaceInfowin;
+        }
+        function getInfoW_M(obj) {
+            startPlacePoint = obj.point;
+            map.openInfoWindow(getInfoW(obj), obj.point);
+        }
+
+        var startPlaceResults = null;
+        var startPlacePoint;
+		var routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
+        var DrivingWay=$("#driving_way select").val();
+		
+		function search(start,end,route){ 
+		 driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true},policy: route});
+		//	driving.search(startPlace, toPlace);
+		}
+  //      var driving = new BMap.DrivingRoute(map, { renderOptions: { map: map, autoViewport: true, panel: 'drivingPanel'}});//创建一个驾车导航实例
+        var startPlaceOption = {
+            onSearchComplete: function (results) {
+                // 判断状态是否正确
+                if (startPlaceSearch.getStatus() == BMAP_STATUS_SUCCESS) {
+                    startPlaceResults = results;
+                    var s = [];
+                    map.clearOverlays();
+                    for (var i = 0; i < results.getCurrentNumPois(); i++) {
+                        s.push("<div><p><a onmouseover='getInfoW_M(startPlaceResults.getPoi(" + i + "))' href='#'>");
+                        s.push(results.getPoi(i).title);
+                        s.push("</a></p><p>");
+                        s.push(results.getPoi(i).address);
+                        s.push("</p></div>");
+                        var marker_c = new BMap.Marker(results.getPoi(i).point);
+                        (function () {
+                            var cur = i;
+                            var mak = marker_c;
+                            mak.addEventListener("click", function () {
+                                startPlacePoint = results.getPoi(cur).point;
+                                this.openInfoWindow(getInfoW(results.getPoi(cur)));      // 打开信息窗口
+                            });
+                        })();
+
+                        map.addOverlay(marker_c);              // 将标注添加到地图中
+                    }
+                    document.getElementById("startPlacePanel").innerHTML = s.join("");
+                } else { startPlaceResults = null; alert("没有搜索到路线，请确定起点是否有效!"); }
+            }
+        };
+
+
+        function startPlaceDeter() {
+            map.clearOverlays();
+            var marker = new BMap.Marker(startPlacePoint);
+            map.addOverlay(marker);
+            map.addOverlay(new BMap.Marker(point));
+               driving.search(startPlacePoint, point);
+            document.getElementById("startPlacePanel").style.display = "none";
+        }
+		
+        var startPlaceSearch = new BMap.LocalSearch(map, startPlaceOption);
+	
+		
+		$("#btnSearch").click(function(){
+			search(startPlace, toPlace,routePolicy[DrivingWay]); 
+			var startPlace = document.getElementById("startPlace").value;
+            startPlaceSearch.search(startPlace);
+            var toPlace = $("#endPlace").val();
+			//driving.search(startPlace, toPlace);
+		map.clearOverlays(); 
+			driving.search(startPlace, toPlace);
+			 document.getElementById("box").style.display = "block";
+            document.getElementById("startPlacePanel").style.display = "block";
+	});
+		
+///
+//三种驾车策略：最少时间，最短距离，避开高速
+	//var routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
+//	$("#result").click(function(){
+//		map.clearOverlays(); 
+//		var i=$("#driving_way select").val();
+//		search(start,end,routePolicy[i]); 
+//		function search(start,end,route){ 
+//			var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true},policy: route});
+//			driving.search(start,end);
+//		}
+//	});
+////////
+        //控制收起/展开
+        $("#btnExpand").click(function () {
+            $(this).text($(this).text() == "(收起)" ? "(展开)" : "(收起)");
+            if ($(this).text() == "(收起)") {
+                $("#startPlacePanel").show();
+            } else {
+                $("#startPlacePanel").hide();
+            }
+
+        });
+    </script>
+    <script>
+	var sel = document.getElementById('stylelist');
+	for(var key in mapstyles){
+		var style = mapstyles[key];
+		var item = new  Option(style.title,key);
+		sel.options.add(item);
+	}
+	
+	
+	changeMapStyle('midnight')
+	sel.value = 'midnight';
+
+	function changeMapStyle(style){
+		map.setMapStyle({style:style});
+		$('#desc').html(mapstyles[style].desc);
+	}
+	
+	//路书
+	
+	</script>
+  
+</body>
+</html>
