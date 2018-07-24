@@ -7,6 +7,6 @@
 # 4. Machine Learning
 # 5. SRE手册
 ## 5.1 git/svn速查
-### 5.1.1 [svn指令脚本](./svn_cmd.txt)
-### 5.1.1 [git指令脚本](./git_cmd.txt)
+### 5.1.1 [svn指令脚本](./svncmd.txt)
+### 5.1.1 [git指令脚本](./gitcmd.md)
 
