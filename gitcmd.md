@@ -33,7 +33,7 @@ git stash list	查看储藏状态的列表
 git stash apply  <stash_name>	回到原来的分支，恢复之前的工作状态  
 
 git push <remote> <branch>	推送本地分支到远程仓库  
-git push -u <remote> <branch>	推送本地分支到远程仓库√
+git push -u <remote> <branch>	推送本地分支到远程仓库  
 git push -u <remote> --all	推送本地仓库所有数据到到远程仓库,-u表示建立跟踪  
 
 git log --no-merges <remote>/<branch>	列出远程没有合并前的变化  
@@ -51,8 +51,9 @@ git remote show <remote>	列出远程仓库的信息
 git remote	rename <old_name> <new_name>	重命名远程仓库  
 git remote rm <remote>	删除远程仓库remote  
 
-git reset --hard	重置仓库  
-[![http://ok455n4km.bkt.clouddn.com/2017-01-21-lifecycle.png](file:///Users/foreverlpficloud.com/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image001.png)](http://ok455n4km.bkt.clouddn.com/2017-01-21-lifecycle.png)
+git reset --hard	重置仓库    
+![Git各个状态之间转换指令总结](./gitcmd_files/clip_image001.png)
+
 Git各个状态之间转换指令总结
 基本状态标识 
 
