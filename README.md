@@ -13,5 +13,7 @@
 ### 5.1.2 [git指令脚本](./gitcmd.md)
 ## 5.2 Linux
 1.  [CentOS 安装 mysql5.7](https://www.cnblogs.com/brianzhu/p/8575243.html) : [https://www.cnblogs.com/brianzhu/p/8575243.html](https://www.cnblogs.com/brianzhu/p/8575243.html)
+# 6. 其他
+1. [重点看的书](./BookList.md)
 
 
