@@ -52,9 +52,9 @@ git remote	rename {old-name} {new-name}	重命名远程仓库
 git remote rm {remote}	删除远程仓库remote  
 
 git reset --hard	重置仓库    
+Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./gitcmd_files/clip_image001.png)
 
-Git各个状态之间转换指令总结
 基本状态标识 
 
 * A- = untracked 未跟踪
