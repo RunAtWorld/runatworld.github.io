@@ -1,7 +1,7 @@
 # RunAtWorld 的手册
 
 # 1. Java 学习手册
-### repo: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
+练习代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
 # 2. Hadoop/Spark 
 # 3. Docker
 # 4. Machine Learning
