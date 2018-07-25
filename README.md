@@ -4,6 +4,8 @@
 练习代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
 # 2. Hadoop/Spark 
 # 3. Docker
+## 3.1 容器化大数据实战
+小组维护的仓库：https://github.com/hbulpf/HSDocker
 # 4. Machine Learning
 # 5. SRE手册
 ## 5.1 git/svn速查
