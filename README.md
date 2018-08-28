@@ -8,9 +8,12 @@
 小组维护的仓库：https://github.com/hbulpf/HSDocker
 
 # 3. SRE手册
-## 5.1 Linux相关
+## 3.1 Linux 相关
+1. [Linux常用命令](./linux_cmd/README.md)
 1. [svn指令脚本](./svncmd.txt)
 1. [git指令脚本](./gitcmd.md)
+1. 部署服务
+	1.  [CentOS 安装 mysql5.7](https://www.cnblogs.com/brianzhu/p/8575243.html) : [https://www.cnblogs.com/brianzhu/p/8575243.html](https://www.cnblogs.com/brianzhu/p/8575243.html)
 1. 常用软件资源
 
 资源名 | 资源链接
@@ -22,23 +25,25 @@
 
  [更多开源资源...](./mirrors.md)
 
-## 4.2 部署服务
-1.  [CentOS 安装 mysql5.7](https://www.cnblogs.com/brianzhu/p/8575243.html) : [https://www.cnblogs.com/brianzhu/p/8575243.html](https://www.cnblogs.com/brianzhu/p/8575243.html)
+## 3.2 Windows 相关
+1. [Windows 常用命令](./windows/windows_cmd.md)
 
-# 5. 大数据
-## 5.1 Hadoop生态
+
+
+# 4. 大数据
+## 4.1 Hadoop生态
 1. Hadoop
 1. Hive
 1. Pig
 1. HBase
 1. Spark
 
-## 5.2 Hadoop相关部署工具
+## 4.2 Hadoop相关部署工具
 1. [hdp](https://hortonworks.com/downloads/#data-platform)
 1. [cdh](https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html)
 1. [ambari](https://ambari.apache.org/)
 
-# 6. 机器学习
+# 5. 机器学习
 
 * InsightFace  
 	- 基于MXNet的人脸识别开源库 
