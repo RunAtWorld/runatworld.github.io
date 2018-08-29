@@ -14,6 +14,7 @@
 1. [文件系统](fs.md)
 1. [防火墙设置](firewall.md)
 1. [网络](network.md)
+1. [vim使用](vim.md)
 1. [软件使用](software.md)
 1. [Linux命令全称(助记)](remember.md)
 
