@@ -3,12 +3,8 @@
 # 1. Java 练习
 练习代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
 
-# 2. 云计算
-## 2.1 容器化大数据实战
-小组维护的仓库：https://github.com/hbulpf/HSDocker
-
-# 3. SRE手册
-## 3.1 Linux 相关
+# 2. SRE手册
+## 2.1 Linux 相关
 1. [Linux常用命令](./linux_cmd/README.md)
 1. [svn指令脚本](./svn_cmd.md)
 1. [git指令脚本](./gitcmd.md)
@@ -25,10 +21,14 @@
 
  [更多开源资源...](./mirrors.md)
 
-## 3.2 Windows 相关
+## 2.2 Windows 相关
 1. [Windows 常用命令](./windows/windows_cmd.md)
 
-
+# 3. 云计算
+1. 容器化大数据实战
+	1. [小组维护的仓库：https://github.com/hbulpf/HSDocker](https://github.com/hbulpf/HSDocker)
+1. Docker容器手册
+	1. [Docker 常见命令](./docker/docker_cmd.md)
 
 # 4. 大数据
 ## 4.1 Hadoop生态
@@ -67,7 +67,7 @@
 	- https://github.com/shawnwun/NNDIAL
 * Voice Activity Detection Toolkit  
 	- 论文 Voice Activity Detection Using an Adaptive Context Attention Model 的开源实现，此外还包含作者团队自行录制的语音数据集。
-	- https://github.com/jtkim-kaist/VAD | 
+	- https://github.com/jtkim-kaist/VAD  
 * Knowledge Graph Representation  
 	- 用PyTorch实现知识图谱表示
 	- https://github.com/jimmywang heng/knowledge_representation_pytorch
