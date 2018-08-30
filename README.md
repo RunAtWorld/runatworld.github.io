@@ -26,9 +26,15 @@
 
 # 3. 云计算
 1. 容器化大数据实战
+<<<<<<< HEAD
 	1. [小组维护的仓库：https://github.com/hbulpf/HSDocker](https://github.com/hbulpf/HSDocker)
 1. Docker容器手册
 	1. [Docker 常见命令](./docker/docker_cmd.md)
+=======
+ 1. [小组维护的仓库：https://github.com/hbulpf/HSDocker](https://github.com/hbulpf/HSDocker)
+1. Docker容器手册
+ 1. [Docker 常见命令](./docker/docker_cmd.md)
+>>>>>>> 210c468e4e99e23be0fad3238bc19af4f735df24
 
 # 4. 大数据
 ## 4.1 Hadoop生态
