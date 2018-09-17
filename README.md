@@ -8,6 +8,7 @@
 1. [Linux常用命令手册](https://github.com/hbulpf/LinuxFun)
 1. [svn指令脚本](./svn_cmd.md)
 1. [git指令脚本](./gitcmd.md)
+1. [`sre/ops` 面试题](./sre/README.md)
 1. 部署服务
 	1.  [CentOS 安装 mysql5.7](https://www.cnblogs.com/brianzhu/p/8575243.html) : [https://www.cnblogs.com/brianzhu/p/8575243.html](https://www.cnblogs.com/brianzhu/p/8575243.html)
 1. 常用软件资源
