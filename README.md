@@ -5,7 +5,7 @@
 
 # 2. SRE手册
 ## 2.1 Linux 相关
-1. [Linux常用命令](./linux_cmd/README.md)
+1. [Linux常用命令手册](https://github.com/hbulpf/LinuxFun)
 1. [svn指令脚本](./svn_cmd.md)
 1. [git指令脚本](./gitcmd.md)
 1. 部署服务
