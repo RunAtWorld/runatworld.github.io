@@ -32,9 +32,7 @@ git stash 储藏当前状态，切换到其他分支
 git stash list	查看储藏状态的列表  
 git stash apply  {stash-name}	回到原来的分支，恢复之前的工作状态  
 
-git push {remote} {branch}	推送本地分支到远程仓库  
-git push -u {remote} {branch}	推送本地分支到远程仓库  
-git push -u {remote} --all	推送本地仓库所有数据到到远程仓库,-u表示建立跟踪  
+git push {远程主机名} {本地分支名}:{远程分支名}	 #推送本地分支到远程仓库  
 
 git log --no-merges {remote}/{branch}	列出远程没有合并前的变化  
 git fetch {remote}	从远程下载所有变化数据,但是不放到工作区  
@@ -83,7 +81,15 @@ Git各个状态之间转换指令总结
 在当前用户下执行命令：
 ssh-add
 即可解决。
+
+1. 本地文件夹与远程库建立关联
+```
+git init .
+git remote add origin git@github.com:RunAtWorld/ceph_manual.git  #与远程主机关联
+git branch --set-upstream-to=origin/master master #建立远程master分支与本地master分支的关联
+```
  
- 
- 
+# 参考
+1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
+2. [git官方教程：https://git-scm.com/book/zh/v2/](https://git-scm.com/book/zh/v2/)
  
