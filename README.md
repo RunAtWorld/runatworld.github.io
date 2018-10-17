@@ -8,7 +8,8 @@
 ### 2.1 [Linux Funny](https://github.com/hbulpf/LinuxFun)
 
 ### 2.2 人工运维自动化
-1. [服务器运维常见脚本](https://github.com/hbulpf/ServerOps)
+1. [Linux服务器常见运维脚本](https://github.com/hbulpf/ServerOps)
+1. [Windows 常用命令](./windows/windows_cmd.md)
 
 ### 2.3 DevOps
 + 版本控制&团队协作
@@ -29,10 +30,7 @@
 中科大开源软件镜像站 | http://mirrors.ustc.edu.cn/
 阿里巴巴开源软件镜像站 | http://mirrors.aliyun.com/
 
- [更多开源资源...](./mirrors.md)
-
-## 2.2 Windows 相关
-1. [Windows 常用命令](./windows/windows_cmd.md)
+ [更多开源镜像资源...](./mirrors.md)
 
 # 3. 云计算
 1. 容器化大数据实战
