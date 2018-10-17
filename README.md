@@ -1,23 +1,25 @@
 # RunAtWorld 的手册
 
-# 1. Java 练习
-练习代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
+# 1. 基础练习
+1. Java 代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
+2.  算法练习
 
-# 2. SRE手册
-## 2.1 Linux 相关
-### 2.1.1 [Linux常用命令](https://github.com/hbulpf/LinuxFun)
-### 2.1.2 DevOps相关
+# 2. SRE/Ops
+### 2.1 [Linux Funny](https://github.com/hbulpf/LinuxFun)
+
+### 2.2 人工运维自动化
+1. [服务器运维常见脚本](https://github.com/hbulpf/ServerOps)
+
+### 2.3 DevOps
 + 版本控制&团队协作
 	- [svn指令脚本](./svn_cmd.md)
 	- [git指令脚本](./gitcmd.md)
- 
-### 2.1.3 人工运维自动化相关
-1. [服务器运维常见脚本](https://github.com/hbulpf/ServerOps)
+	
+### 2.4 面试相关
+1. [`sre/ops` 技术面试](./sre/README.md)
+1. [hr面试](./hr/README.md)
 
-### 2.1.4 面试相关
-1. [`sre/ops` 面试题](./sre/README.md)
-
-### 2.1.5 其他
+### 2.5 其他资源
 1. 常用软件资源
 
 资源名 | 资源链接
