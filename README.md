@@ -12,8 +12,8 @@
 
 ### 2.3 DevOps
 + 版本控制&团队协作
-	- [svn指令脚本](./svn_cmd.md)
-	- [git指令脚本](./gitcmd.md)
+	- [svn 常用指令](./svn_cmd.md)
+	- [git 常用指令](./gitcmd.md)
 	
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./sre/README.md)
