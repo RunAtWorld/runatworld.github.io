@@ -3,6 +3,7 @@
 # 1. 基础练习
 1. Java 代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
 2.  算法练习
+	- [各种语言的各种算法](https://github.com/TheAlgorithms)
 
 # 2. SRE/Ops
 ### 2.1 [Linux Funny](https://github.com/hbulpf/LinuxFun)
