@@ -1,4 +1,4 @@
-# RunAtWorld 的手册
+# RunAtWorld 的技术路线
 
 # 1. 基础练习
 1. Java 代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
@@ -14,7 +14,7 @@
 ### 2.3 DevOps
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
-	- [git 常用指令](./gitcmd.md)
+	- [git 常用指令](./gitcmd.md) ____   [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 	
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
