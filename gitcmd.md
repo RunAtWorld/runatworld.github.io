@@ -92,4 +92,4 @@ git branch --set-upstream-to=origin/master master #建立远程master分支与�
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
 2. [git官方教程：https://git-scm.com/book/zh/v2/](https://git-scm.com/book/zh/v2/)
- 
+3. [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
