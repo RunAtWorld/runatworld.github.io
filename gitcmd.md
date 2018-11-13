@@ -76,7 +76,7 @@ Git各个状态之间转换指令总结
 * 修改最后一次提交: git commit –amend  
 
 # FAQ
-1.SSH生成id_rsa,id_rsa.pub后，连接服务器却报：Agent admitted failure to sign using the key错误。  
+1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：Agent admitted failure to sign using the key错误。  
 解决：
 在当前用户下执行命令：
 ssh-add
@@ -92,4 +92,5 @@ git branch --set-upstream-to=origin/master master #建立远程master分支与�
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
 2. [git官方教程：https://git-scm.com/book/zh/v2/](https://git-scm.com/book/zh/v2/)
-3. [git简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+3. [git菜鸟教程:http://www.runoob.com/git/git-tutorial.html](http://www.runoob.com/git/git-tutorial.html)
+4. [git简明指南:http://rogerdudler.github.io/git-guide/index.zh.html](http://rogerdudler.github.io/git-guide/index.zh.html)
