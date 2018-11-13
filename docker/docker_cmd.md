@@ -265,6 +265,15 @@
 	docker -d 
 	systmctl restart docker重启docker服务
 	```
+2. `docker 修改容器启动配置`<br>
+方法1:<br>
+```
+docker container update --restart=always <containername>
+```
+方法2:<br>
+修改配置文件 `/var/lib/docker/containers/容器ID/hostconfig.json`,在改文件中搜索关键字restart,修改文件前要把容器停止,不然无法写入。
+当前配置 `"RestartPolicy":{"Name":"no","MaximumRetryCount":0}` 修改为后 `"RestartPolicy":{"Name":"always","MaximumRetryCount":0}`
+重启docker 服务即可
 
 # 参考
 1. Docker — 从入门到实践 . https://github.com/yeasy/docker_practice
