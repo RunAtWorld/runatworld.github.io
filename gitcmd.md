@@ -1,4 +1,4 @@
-# git常用操作
+# Git常用操作
  
 git help config	查看git配置帮助
 
@@ -50,30 +50,22 @@ git remote	rename {old-name} {new-name}	重命名远程仓库
 git remote rm {remote}	删除远程仓库remote  
 
 git reset --hard	重置仓库    
-Git各个状态之间转换指令总结   
-![Git各个状态之间转换指令总结](./gitcmd_files/clip_image001.png)
 
-基本状态标识 
+# Git各个状态之间转换指令总结   
+![Git各个状态之间转换指令总结](./gitcmd_files/1352126739_7909.jpg) <br>  
+**工作区**：就是你在电脑里能看到的目录。<br>
+**暂存区**：英文叫stage, 或index。一般存放在 ".git目录下" 下的index文件（.git/index）中，所以我们把暂存区有时也叫作索引（index）。<br>
+**版本库**：工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。<br>
+<br>
+在版本库中标记为 "index" 区域是暂存区（stage, index），标记为 "master" 的是 master 分支所代表的目录树。<br>
+"HEAD" 实际是指向 master 分支的一个"游标"。图中出现 HEAD 的地方可以用 master 来替换。objects 标识的区域为 Git 的对象库，实际位于 ".git/objects" 目录下，里面包含了创建的各种对象及内容。<br>
 
-* A- = untracked 未跟踪
-* A = tracked 已跟踪未修改
-* A+ = modified 已修改未暂存
-* B = staged 已暂存未提交
-* C = committed 已提交未PUSH
- 
-各状态之间变化
-
-* A- -> B : git add {file}  
-* B -> A- : git rm --cached {file}   
-* B -> 删除不保留文件 : git rm -f {file}    
-* A -> A- : git rm --cached {file}  
-* A -> A+ : 修改文件  
-* A+ -> A : git checkout -- {file}  
-* A+ -> B : git add {file}  
-* B -> A+ : git reset HEAD {file}  
-* B -> C : git commit  
-* C -> B : git reset --soft HEAD   
-* 修改最后一次提交: git commit –amend  
+- 当对工作区修改（或新增）的文件执行 `git add` 命令时，暂存区的目录树被更新，同时工作区修改（或新增）的文件内容被写入到对象库中的一个新的对象中，而该对象的ID被记录在暂存区的文件索引中。<br>
+- 当执行提交操作 `git commit` 时，暂存区的目录树写到版本库（对象库）中，master 分支会做相应的更新。即 master 指向的目录树就是提交时暂存区的目录树。<br>
+- 当执行 `git reset HEAD` 命令时，暂存区的目录树会被重写，被 master 分支指向的目录树所替换，但是工作区不受影响。<br>
+- 当执行 `git rm --cached <file>` 命令时，会直接从暂存区删除文件，工作区则不做出改变。<br>
+- 当执行 `git checkout .` 或者 `git checkout -- <file>` 命令时，会用暂存区全部或指定的文件替换工作区的文件。这个操作很危险，会清除工作区中未添加到暂存区的改动。<br>
+- 当执行 `git checkout HEAD .` 或者 `git checkout HEAD <file>` 命令时，会用 HEAD 指向的 master 分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令也是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动。<br>
 
 # FAQ
 1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：Agent admitted failure to sign using the key错误。  
