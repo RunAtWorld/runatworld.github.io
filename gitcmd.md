@@ -1,15 +1,21 @@
 # Git常用操作
- 
 git help config	查看git配置帮助
 
+### 配置账户
+```
 git config --global user.name "lipengfei"	配置用户名   
 git config --global user.email "goodlpf00@gmail.com"	配置电子邮箱   
 ssh-keygen -t rsa -C "goodlpf00@gmail.com"	生成公钥和私钥对  
-ssh git@bitbucket.org	测试ssh的密钥对  
-//在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
+ssh git@bitbucket.org	测试ssh的密钥对  #在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
+```
 
+### 克隆仓库
+```
 git clone git@github.com:RunAtWorld/quietalk.git	从远程克隆一个仓库   
+```
 
+### 提交文件
+```
 git add 1.txt  添加1.txt到下一次提交,并被跟踪   
 git add .  添加当前文件夹下所有文件到下一次提交,并被跟踪   
 git add *.txt 添加所有txt文件到下一次提交,并被跟踪   
@@ -19,18 +25,46 @@ git commit -am "abc"	带信息提交所有修改的文件变化到本地仓库
 git commit --amend	修改上一次提交   
 git status 显示当前git的状态   
 git log	查看git日志     
+```
 
-git branch	查看当前分支   
-git branch {new-branch}	创建新的分支   
-git checkout {branch1}	切换到一个分支branch1  
-git checkout -b {branch3}	创建并切换到分支branch3   
+### 分支
+1. 创建分支
+```
+git branch	#查看当前分支   
+git branch dev	#创建dev分支   
+git checkout dev	#切换到一个分支dev 
+git checkout -b dev	#创建并切换到分支dev
+```
 
-git merge {branch4}	当前分支合并至branch4分支的HEAD指针处  
+1. 删除分支
+```
 git branch -d {branch4}	删除一个本地分支branch4  
+```
 
-git stash 储藏当前状态，切换到其他分支  
-git stash list	查看储藏状态的列表  
-git stash apply  {stash-name}	回到原来的分支，恢复之前的工作状态  
+1. 合并分支
+```
+git merge {branch4} 当前分支合并至branch4分支的HEAD指针处 
+```
+
+1. 查看分支
+```
+git branch -r   列出远程分支
+git branch -v   列出本地分支
+git branch -a   列出本地和远程所有分支
+```
+
+1. 与远程分支建立联系
+```
+git checkout --track dev_loacal origin/dev   新建一个本地dev_loacal分支并与远程dev分支关联  
+git branch --set-upstream-to dev_loacal origin/dev  将本地分支dev_loacal与远程的dev建立联系  
+```
+
+1. 储存当前状态
+```
+git stash #储藏当前状态，切换到其他分支  
+git stash list	#查看储藏状态的列表  
+git stash apply  {stash_name}	#回到原来某个工作状态，恢复之前的工作状态  
+```
 
 git push {远程主机名} {本地分支名}:{远程分支名}	 #推送本地分支到远程仓库  
 
@@ -40,10 +74,7 @@ git merge {remote}/{branch}	将本地仓库版本合并至远程仓库
 git pull {remote} {branch}	相当于git fetch {remote}和git merge {remote}/{branch}两条命令的合并，自动抓取数据并将本地仓库版本合并至远程仓库
 
 git remote -v	列出当前配置的远程库  
-git branch -r	列出本地分支与远程分支的对应关系  
-git branch -v	列出远程分支的版本操作情况  
-git checkout --track {local-branch} {remote}/{branch}	新建一个本地分支并与远程分支关联  
-git branch --set-upstream {local-branch} {remote}/{remote-branch}	将本地分支local_branch与远程的remote_branch建立联系  
+
 
 git remote show {remote}	列出远程仓库的信息  
 git remote	rename {old-name} {new-name}	重命名远程仓库  
