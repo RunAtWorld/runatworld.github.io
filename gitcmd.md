@@ -1,5 +1,7 @@
 # Git常用操作
-git help config	查看git配置帮助
+```
+git help #查看git帮助
+```
 
 ### 配置账户
 ```
@@ -7,12 +9,20 @@ git config --global user.name "lipengfei"	#配置用户名
 git config --global user.email "goodlpf00@gmail.com"	#配置电子邮箱   
 ssh-keygen -t rsa -C "goodlpf00@gmail.com"	#生成公钥和私钥对  
 cat ~/.ssh/id_rsa.pub #查看公钥信息
-ssh git@bitbucket.org	测试ssh的密钥对  #在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
+ssh git@bitbucket.org	#测试ssh的密钥对  #在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
 ```
 
 ### 克隆仓库
 ```
 git clone git@github.com:RunAtWorld/quietalk.git	#从远程克隆一个仓库   
+```
+
+### 拉取操作
+```
+git fetch origin  #从远程仓库 origin 下载所有变化数据,但是不放到工作区  
+git merge origin/dev #将远程仓库中的dev分支与当前本地分支合并  
+git pull <远程主机名> <远程分支名>:<本地分支名>  #相当于git fetch origin 和git merge origin/dev 两条命令的合并
+git pull origin next:master #拉取远程dev分支与本地master分支合并
 ```
 
 ### 提交文件
@@ -25,13 +35,12 @@ git push    #提交本地文件到远程仓库
 
 更多操作
 ```
-git add 1.txt  添加1.txt到下一次提交,并被跟踪   
-git add .  添加当前文件夹下所有文件到下一次提交,并被跟踪   
-git add *.txt 添加所有txt文件到下一次提交,并被跟踪   
-git commit -m "abc"	带信息提交一次变化到本地仓库   
-git commit -am "abc"	带信息提交所有修改的文件变化到本地仓库   
-git commit --amend	修改上一次提交   
-
+git add 1.txt  #添加1.txt到下一次提交,并被跟踪   
+git add .  #添加当前文件夹下所有文件到下一次提交,并被跟踪   
+git add *.txt #添加所有txt文件到下一次提交,并被跟踪   
+git commit -m "abc"	#带信息提交一次变化到本地仓库   
+git commit -am "abc"	#带信息提交所有修改的文件变化到本地仓库，可以省略 git add 操作 
+git commit --amend	#修改上一次提交   
 ```
 
 ### 分支
@@ -45,25 +54,26 @@ git checkout -b dev	#创建并切换到分支dev
 
 1. 删除分支
 ```
-git branch -d {branch4}	删除一个本地分支branch4  
+git branch -d {branch4}	#删除一个本地分支branch4  
 ```
 
 1. 合并分支
 ```
-git merge {branch4} 当前分支合并至branch4分支的HEAD指针处 
+git merge {branch4} #当前分支合并至branch4分支的HEAD指针处 
 ```
 
 1. 查看分支
 ```
-git branch -r   列出远程分支
-git branch -v   列出本地分支
-git branch -a   列出本地和远程所有分支
+git branch -r   #列出远程分支
+git branch -v   #列出本地分支
+git branch -a   #列出本地和远程所有分支
 ```
 
 1. 与远程分支建立联系
 ```
-git checkout --track dev_loacal origin/dev   新建一个本地dev_loacal分支并与远程dev分支关联  
-git branch --set-upstream-to dev_loacal origin/dev  将本地分支dev_loacal与远程的dev建立联系  
+git checkout --track dev_loacal origin/dev   #新建一个本地dev_loacal分支并与远程dev分支关联  
+git branch --set-upstream-to dev_loacal origin/dev  #将本地分支dev_loacal与远程的dev建立联系  
+git branch --set-upstream-to=origin/dev dev_loacal #将本地分支dev_loacal与远程的dev建立联系  
 ```
 
 1. 储存当前状态
@@ -80,22 +90,27 @@ git remote rename origin origin1    #重命名远程仓库为 origin1
 git remote rm origin  #删除远程仓库origin
 ```
 
-git push {远程主机名} {本地分支名}:{远程分支名}	 #推送本地分支到远程仓库  
+### 远程推送
+```
+git push origin dev_local:dev  #推送本地分支dev_local到 origin 远程仓库dev分支  
+git push --set-upstream origin dev_local:dev  #推送并设置本地分支dev_local到 origin 远程仓库dev分支  
+git push origin :experimental #删除远程的 experimental 分支
+```
 
-git log --no-merges {remote}/{branch}	列出远程没有合并前的变化  
-git fetch {remote}	从远程下载所有变化数据,但是不放到工作区  
-git merge {remote}/{branch}	将本地仓库版本合并至远程仓库  
-git pull {remote} {branch}	相当于git fetch {remote}和git merge {remote}/{branch}两条命令的合并，自动抓取数据并将本地仓库版本合并至远程仓库
-
-git remote -v	列出当前配置的远程库  
-
-#### 查看状态
+#### 查看状态与日志
+1. 查看状态
 ```
 git status #显示当前git的状态   
-git log #查看git日志 
+git remote -v   #列出当前配置的远程库  
 ```
-
-git reset --hard	重置仓库    
+2. 查看日志
+```
+git log #查看git日志 
+git log --after="2018-05-21 00:00:00" --before="2018-07-25 23:59:59" # 查看某个时间段日志
+git log --oneline --since ="2018-07-19 00:00:00" --until=="2018-11-19 23:00:00" #单行查看某段时间的日志
+git log --graph --oneline #点线图查看日志 
+git log --no-merges origin/dev  #列出远程dev分支没有合并前的变化  
+```
 
 # Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./gitcmd_files/1352126739_7909.jpg) <br>  
@@ -113,18 +128,46 @@ git reset --hard	重置仓库
 - 当执行 `git checkout .` 或者 `git checkout -- <file>` 命令时，会用暂存区全部或指定的文件替换工作区的文件。这个操作很危险，会清除工作区中未添加到暂存区的改动。<br>
 - 当执行 `git checkout HEAD .` 或者 `git checkout HEAD <file>` 命令时，会用 HEAD 指向的 master 分支中的全部或者部分文件替换暂存区和以及工作区中的文件。这个命令也是极具危险性的，因为不但会清除工作区中未提交的改动，也会清除暂存区中未提交的改动。<br>
 
+# Git 示例
+### 1. git 切换远程分支<br>
+git clone只能clone远程库的master分支，无法clone所有分支。
+```
+git clone http://myrepo.xxx.com/project/.git 
+cd project
+```
+列出所有分支：
+```
+git branch -a 
+```
+>remotes/origin/dev  
+>remotes/origin/release
+
+checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
+```
+git checkout -b dev origin/dev #checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev分支
+```
+切换回dev分支开始开发
+```
+git checkout dev  #切换回dev分支开始开发
+```
+将本地dev分支与远程dev分支建立关联
+```
+git branch --set-upstream-to=origin/dev dev 
+git push --set-upstream origin dev_local:dev #本地分支dev_local推送到远程dev分支
+```
 # FAQ
-1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：Agent admitted failure to sign using the key错误。  
-解决：
-在当前用户下执行命令：
+1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：`Agent admitted failure to sign using the key` 错误。  
+解决：在当前用户下执行命令：
+```
 ssh-add
+```
 即可解决。
 
 1. 本地文件夹与远程库建立关联
 ```
 git init .
 git remote add origin git@github.com:RunAtWorld/ceph_manual.git  #与远程主机关联
-git branch --set-upstream-to=origin/master master #建立远程master分支与本地master分支的关联
+git branch --set-upstream-to=origin/master master #建立本地master分支与远程master分支的关联
 ```
  
 # 参考
