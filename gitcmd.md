@@ -3,28 +3,35 @@ git help config	查看git配置帮助
 
 ### 配置账户
 ```
-git config --global user.name "lipengfei"	配置用户名   
-git config --global user.email "goodlpf00@gmail.com"	配置电子邮箱   
-ssh-keygen -t rsa -C "goodlpf00@gmail.com"	生成公钥和私钥对  
+git config --global user.name "lipengfei"	#配置用户名   
+git config --global user.email "goodlpf00@gmail.com"	#配置电子邮箱   
+ssh-keygen -t rsa -C "goodlpf00@gmail.com"	#生成公钥和私钥对  
+cat ~/.ssh/id_rsa.pub #查看公钥信息
 ssh git@bitbucket.org	测试ssh的密钥对  #在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
 ```
 
 ### 克隆仓库
 ```
-git clone git@github.com:RunAtWorld/quietalk.git	从远程克隆一个仓库   
+git clone git@github.com:RunAtWorld/quietalk.git	#从远程克隆一个仓库   
 ```
 
 ### 提交文件
+常用的操作
+```
+git add .  #添加当前文件夹下所有文件到下一次提交,并被跟踪   
+git commit -m "abc" #带信息"abc"提交一次变化到本地仓库   
+git push    #提交本地文件到远程仓库
+```
+
+更多操作
 ```
 git add 1.txt  添加1.txt到下一次提交,并被跟踪   
 git add .  添加当前文件夹下所有文件到下一次提交,并被跟踪   
 git add *.txt 添加所有txt文件到下一次提交,并被跟踪   
-git commit 提交前一次变化到本地仓库   
 git commit -m "abc"	带信息提交一次变化到本地仓库   
 git commit -am "abc"	带信息提交所有修改的文件变化到本地仓库   
 git commit --amend	修改上一次提交   
-git status 显示当前git的状态   
-git log	查看git日志     
+
 ```
 
 ### 分支
@@ -63,7 +70,14 @@ git branch --set-upstream-to dev_loacal origin/dev  将本地分支dev_loacal与
 ```
 git stash #储藏当前状态，切换到其他分支  
 git stash list	#查看储藏状态的列表  
-git stash apply  {stash_name}	#回到原来某个工作状态，恢复之前的工作状态  
+git stash apply stash_1	#回到原来某个工作状态stash_1，恢复之前的工作状态  
+```
+
+### 远程分支
+```
+git remote show origin  #列出远程仓库 origin 的信息  
+git remote rename origin origin1    #重命名远程仓库为 origin1  
+git remote rm origin  #删除远程仓库origin
 ```
 
 git push {远程主机名} {本地分支名}:{远程分支名}	 #推送本地分支到远程仓库  
@@ -75,10 +89,11 @@ git pull {remote} {branch}	相当于git fetch {remote}和git merge {remote}/{bra
 
 git remote -v	列出当前配置的远程库  
 
-
-git remote show {remote}	列出远程仓库的信息  
-git remote	rename {old-name} {new-name}	重命名远程仓库  
-git remote rm {remote}	删除远程仓库remote  
+#### 查看状态
+```
+git status #显示当前git的状态   
+git log #查看git日志 
+```
 
 git reset --hard	重置仓库    
 
