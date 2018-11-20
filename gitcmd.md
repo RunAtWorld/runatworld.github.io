@@ -99,7 +99,8 @@ git push origin :experimental #删除远程的 experimental 分支
 
 ### Tag
 >创建一个tag来指向软件开发中的一个关键时期，比如版本号更新的时候可以建一个"v2.0"、"v3.1"之类的标签，这样在以后回顾的时候会比较方便。tag的使用很简单，主要操作有：查看tag、创建tag、验证tag以及共享tag。
-1. 
+
+1. 查看tag
 ```
 git tag   #查看tag,列出所有tag，按字母排序的，和创建时间没关系
 git tag -l 'v1.4.2.*'  #查看指定版本的tag
