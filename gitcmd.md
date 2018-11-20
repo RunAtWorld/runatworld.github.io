@@ -54,12 +54,13 @@ git checkout -b dev	#创建并切换到分支dev
 
 1. 删除分支
 ```
-git branch -d {branch4}	#删除一个本地分支branch4  
+git branch -d branch4	#删除一个本地分支branch4  
+git push origin --delete branch4  #删除远程分支branch4
 ```
 
 1. 合并分支
 ```
-git merge {branch4} #当前分支合并至branch4分支的HEAD指针处 
+git merge branch4 #当前分支合并至branch4分支的HEAD指针处 
 ```
 
 1. 查看分支
@@ -123,6 +124,7 @@ git push origin --tags   #将所有tag 一次全部push到github上
 ```
 git tag -d v1.0  #删除本地tag
 git push origin :refs/tags/v1.0.0  #删除github远端的指定tag
+git push origin --delete v1.0.0 
 ```
 
 5. 创建一个基于指定tag的分支
@@ -144,6 +146,11 @@ git log --after="2018-05-21 00:00:00" --before="2018-07-25 23:59:59" # 查看某
 git log --oneline --since ="2018-07-19 00:00:00" --until=="2018-11-19 23:00:00" #单行查看某段时间的日志
 git log --graph --oneline #点线图查看日志 
 git log --no-merges origin/dev  #列出远程dev分支没有合并前的变化  
+```
+
+### 重置仓库
+```
+git reset --hard <指定版本> 
 ```
 
 # Git各个状态之间转换指令总结   
