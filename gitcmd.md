@@ -101,6 +101,7 @@ git push origin :experimental #删除远程的 experimental 分支
 ### Tag
 >创建一个tag来指向软件开发中的一个关键时期，比如版本号更新的时候可以建一个"v2.0"、"v3.1"之类的标签，这样在以后回顾的时候会比较方便。tag的使用很简单，主要操作有：查看tag、创建tag、验证tag以及共享tag。
 
+#### Tag 本地操作
 1. 查看tag
 ```
 git tag   #查看tag,列出所有tag，按字母排序的，和创建时间没关系
@@ -114,17 +115,9 @@ git tag v1.0  #创建轻量级tag，这样创建的tag没有附带其他信息
 git tag -a v1.0 -m 'first version' #创建轻量级tag：这样创建的tag没有附带其他信息
 ```
 
-3. 共享tag:在执行 git push 的时候，tag不会上传github服务器，比如现在的，创建 tag 后 `git push` ，在github网页上是看不到tag的
-```
-git push origin v1.0  #将v1.0的tag推到服务器
-git push origin --tags   #将所有tag 一次全部push到github上
-```
-
 4. 删除tag
 ```
 git tag -d v1.0  #删除本地tag
-git push origin :refs/tags/v1.0.0  #删除github远端的指定tag
-git push origin --delete v1.0.0 
 ```
 
 5. 创建一个基于指定tag的分支
@@ -132,6 +125,23 @@ git push origin --delete v1.0.0
 git checkout -b tset v0.1.0
 ```
 
+#### Tag 远程操作
+1. 创建 tag 后,tag不会上传github服务器, `git push` 在github网页上看不到tag,需要带 tag 推送
+```
+git push origin v1.0  #将v1.0的tag推到服务器
+git push origin --tags   #将所有tag 一次全部push到github上
+```
+
+1. 查看远程tag
+```
+git show-ref
+```
+
+1. 删除远程tag
+```
+git push origin :refs/tags/v1.0.0  #删除github远端的指定tag
+git push origin --delete v1.0.0 
+```
 
 ### 查看状态与日志
 1. 查看状态
