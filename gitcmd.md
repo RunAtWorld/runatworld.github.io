@@ -206,6 +206,30 @@ git checkout dev  #切换回dev分支开始开发
 git branch --set-upstream-to=origin/dev dev 
 git push --set-upstream origin dev_local:dev #本地分支dev_local推送到远程dev分支
 ```
+
+### gitignore 说明
+```
+#               表示此为注释,将被Git忽略
+*.a             表示忽略所有 .a 结尾的文件
+!lib.a          表示但lib.a除外
+/TODO           表示仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+build/          表示忽略 build/目录下的所有文件，过滤整个build文件夹；
+doc/*.txt       表示会忽略doc/notes.txt但不包括 doc/server/arch.txt
+ 
+bin/:           表示忽略当前路径下的bin文件夹，该文件夹下的所有内容都会被忽略，不忽略 bin 文件
+/bin:           表示忽略根目录下的bin文件
+/*.c:           表示忽略cat.c，不忽略 build/cat.c
+debug/*.obj:    表示忽略debug/io.obj，不忽略 debug/common/io.obj和tools/debug/io.obj
+**/foo:         表示忽略/foo,a/foo,a/b/foo等
+a/**/b:         表示忽略a/b, a/x/b,a/x/y/b等
+!/bin/run.sh    表示不忽略bin目录下的run.sh文件
+*.log:          表示忽略所有 .log 文件
+config.php:     表示忽略当前路径的 config.php 文件
+ 
+/mtk/           表示过滤整个文件夹
+*.zip           表示过滤所有.zip文件
+/mtk/do.c       表示过滤某个具体文件
+```
 # FAQ
 1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：`Agent admitted failure to sign using the key` 错误。  
 解决：在当前用户下执行命令：
