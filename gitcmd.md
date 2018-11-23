@@ -22,7 +22,7 @@ git clone git@github.com:RunAtWorld/quietalk.git	#从远程克隆一个仓库
 git fetch origin  #从远程仓库 origin 下载所有变化数据,但是不放到工作区  
 git merge origin/dev #将远程仓库中的dev分支与当前本地分支合并  
 git pull <远程主机名> <远程分支名>:<本地分支名>  #相当于git fetch origin 和git merge origin/dev 两条命令的合并
-git pull origin next:master #拉取远程dev分支与本地master分支合并
+git pull origin dev:master #拉取远程dev分支与本地master分支合并
 ```
 
 ### 提交文件
