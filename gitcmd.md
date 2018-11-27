@@ -72,7 +72,7 @@ git branch -a   #列出本地和远程所有分支
 
 1. 与远程分支建立联系
 ```
-git checkout --track dev_loacal origin/dev   #新建一个本地dev_loacal分支并与远程dev分支关联  
+git checkout -b dev_loacal --track origin/dev   #新建一个本地dev_loacal分支并与远程dev分支关联  
 git branch --set-upstream-to dev_loacal origin/dev  #将本地分支dev_loacal与远程的dev建立联系  
 git branch --set-upstream-to=origin/dev dev_loacal #将本地分支dev_loacal与远程的dev建立联系  
 ```
