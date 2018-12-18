@@ -164,7 +164,7 @@ git reset --hard <指定版本>
 ```
 
 # Git各个状态之间转换指令总结   
-![Git各个状态之间转换指令总结](./gitcmd_files/1352126739_7909.jpg) <br>  
+![Git各个状态之间转换指令总结](./1352126739_7909.jpg) <br>  
 **工作区**：就是你在电脑里能看到的目录。<br>
 **暂存区**：英文叫stage, 或index。一般存放在 ".git目录下" 下的index文件（.git/index）中，所以我们把暂存区有时也叫作索引（index）。<br>
 **版本库**：工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。<br>
@@ -244,7 +244,37 @@ git init .
 git remote add origin git@github.com:RunAtWorld/ceph_manual.git  #与远程主机关联
 git branch --set-upstream-to=origin/master master #建立本地master分支与远程master分支的关联
 ```
- 
+
+1. 本地项目上传到git   
+    (1) 进入项目文件夹,通过命令 git init 把这个目录变成git可以管理的仓库
+    ```
+    git init
+    ```
+    (2) 把文件添加到版本库中
+    ```
+    git add .
+    ```
+    (3) 用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
+    ```
+    git commit -m 'first commit'
+    ```
+    (4) 关联到远程库
+    ```
+    git remote add origin 你的远程库地址
+    ```
+    如
+    ```
+    git remote add origin https://github.com/cade8800/ionic-demo.git
+    ```
+   (5) 获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
+    ```
+    git pull --rebase origin master
+    ```
+   (6) 把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。
+    ```
+    git push -u origin master
+    ```
+
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
 2. [git官方教程：https://git-scm.com/book/zh/v2/](https://git-scm.com/book/zh/v2/)
