@@ -35,6 +35,8 @@
 	- 用PyTorch实现知识图谱表示
 	- https://github.com/jimmywangheng/knowledge_representation_pytorch
 
+# 2. [2018年最流行的机器学习开源项目](./hot_2018.md)
+
 # 参考
 1. 9个机器学习开源项目 . https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/79765391
 
