@@ -41,7 +41,7 @@
 1. GANDissect [[2]](https://mp.weixin.qq.com/s/OmSb1dl9smyZt_uASOcofQ)  
     只要鼠标划过，GAN 就可以立即在你指定的地方画出云彩、草地、门和树等景物，并直接改变构图以保持图像的合理性
     + 项目地址: [https://github.com/CSAILVision/GANDissect](https://github.com/CSAILVision/GANDissect)
- : 工具链接: [http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4)
+    + 工具链接: [http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4](http://gandissect.res.ibm.com/ganpaint.html?project=churchoutdoor&layer=layer4)
     + 论文地址 : [https://arxiv.org/pdf/1811.10597.pdf](https://arxiv.org/pdf/1811.10597.pdf)
 
 2. 一键拯救发际线 [[4]](https://mp.weixin.qq.com/s/cBTnX1lNHJhCMDX926aujA)  
