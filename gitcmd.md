@@ -60,7 +60,7 @@ git push origin --delete branch4  #删除远程分支branch4
 
 1. 合并分支
 ```
-git merge branch4 #当前分支合并至branch4分支的HEAD指针处 
+git merge branch4 #将branch4分支与当前分支合并
 ```
 
 1. 查看分支
@@ -96,6 +96,7 @@ git remote rm origin  #删除远程仓库origin
 git push origin dev_local:dev  #推送本地分支dev_local到 origin 远程仓库dev分支  
 git push --set-upstream origin dev_local:dev  #推送并设置本地分支dev_local到 origin 远程仓库dev分支  
 git push origin :experimental #删除远程的 experimental 分支
+git push origin [name] 创建远程分支(本地分支push到远程)
 ```
 
 ### Tag
