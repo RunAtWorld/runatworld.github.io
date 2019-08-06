@@ -10,6 +10,14 @@ maven 命令的格式为 `mvn [plugin-name]:[goal-name]` ，可以接受的参�
 
 常用maven命令
 ```
+编译源代码： mvn compile
+编译测试代码：mvn test-compile
+测试编译后的代码，即执行单元测试代码：mvn test
+检验package是否有效并且达到质量标准：mvn verify
+清理maven项目：mvn clean
+安装项目到本地仓库：mvn install
+发布项目到远程仓库：mvn deploy
+
 创建maven项目：mvn archetype:create
 指定 group： -DgroupId=packageName
 指定 artifact：-DartifactId=projectName
@@ -20,16 +28,11 @@ maven 打包：mvn package
 只打jar包：mvn jar:jar
 生成源码jar包：mvn source:jar
 产生应用需要的任何额外的源代码：mvn generate-sources
-编译源代码： mvn compile
-编译测试代码：mvn test-compile
-运行测试：mvn test
-检验package是否有效并且达到质量标准：mvn verify
-清理maven项目：mvn clean
+
 生成eclipse项目：mvn eclipse:eclipse
 清理eclipse配置：mvn eclipse:clean
 生成idea项目：mvn idea:idea
-安装项目到本地仓库：mvn install
-发布项目到远程仓库：mvn deploy
+
 在集成测试可以运行的环境中处理和发布包：mvn integration-test
 生成站点目录: mvn site
 生成站点目录并发布：mvn site-deploy
