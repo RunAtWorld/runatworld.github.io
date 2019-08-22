@@ -93,8 +93,8 @@ git remote rm origin  #删除远程仓库origin
 
 ### 远程推送
 ```
-git push origin dev_local:dev  #推送本地分支dev_local到 origin 远程仓库dev分支  
-git push --set-upstream origin dev_local:dev  #推送并设置本地分支dev_local到 origin 远程仓库dev分支  
+git push origin dev_local:dev  #推送本地分支dev_local到 origin 远程仓库(新建)dev分支  
+git push --set-upstream origin dev_local:dev  #推送并设置本地分支dev_local到 origin 远程仓库(新建)dev分支  
 git push origin :experimental #删除远程的 experimental 分支
 git push origin [name] 创建远程分支(本地分支push到远程)
 ```
@@ -217,6 +217,12 @@ git checkout dev  #切换回dev分支开始开发
 ```
 git branch --set-upstream-to=origin/dev dev 
 git push --set-upstream origin dev_local:dev #本地分支dev_local推送到远程dev分支
+```
+
+新建本地分支，并推送为远程的新分支
+```
+git checkout -b dbg_lichen_star
+git push origin dbg_lichen_star:dbg_lichen_star
 ```
 
 ### gitignore 说明
