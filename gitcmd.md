@@ -159,9 +159,20 @@ git log --graph --oneline #点线图查看日志
 git log --no-merges origin/dev  #列出远程dev分支没有合并前的变化  
 ```
 
-### 重置仓库
+### 重置仓库/丢弃修改
 ```
-git reset --hard <指定版本> 
+git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
+git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop回复。
+git reset --hard <指定版本HASH> #返回到某个节点，不保留修改。
+git reset --soft <指定版本HASH> #返回到某个节点。保留修改
+
+git clean -df #返回到某个节点
+git clean 参数
+    -n 显示 将要 删除的 文件 和  目录
+    -f 删除 文件
+    -df 删除 文件 和 目录
+#恢复到上一次提交前
+git checkout . && git clean -xdf
 ```
 
 # Git各个状态之间转换指令总结   
