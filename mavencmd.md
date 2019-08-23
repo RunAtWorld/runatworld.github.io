@@ -115,3 +115,9 @@ F:\SoftWare\Maven\MavenWebAppTest>mvn archetype:generate -DgroupId=com.shihuan -
 创建Maven的Quickstart项目(只适用于Maven3.x版本)：
 F:\SoftWare\Maven\MavenWebAppTest>mvn archetype:generate -DgroupId=com.shihuan -DartifactId=S3h3WebWs-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
+
+处理maven报错
+```
+清理maven未下载成功的jar包(在maven仓库下执行)
+for /r %i in (*.lastUpdated) do del %i 
+```
