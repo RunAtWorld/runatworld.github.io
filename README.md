@@ -4,6 +4,8 @@
 1. Java 代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
 2.  算法练习
 	- [各种语言的各种算法](https://github.com/TheAlgorithms)
+3. Java 学习资源
+    - Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
 # 2. SRE/Ops
 ### 2.1 [Linux Funny](https://github.com/hbulpf/LinuxFun)
@@ -15,7 +17,7 @@
 ### 2.3 DevOps
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
-	- [git 常用指令](./gitcmd.md) ____   [git 官方中文教程](https://git-scm.com/book/zh/v2) 
+	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 + 开发
    - [maven 命令](./mavencmd.md)
 
