@@ -19,7 +19,7 @@
 	- [svn 常用指令](./svn_cmd.md)
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 + 开发
-   - [maven 命令](./mavencmd.md)
+   - [maven 命令](./maven/mavencmd.md) / [maven仓库配置](./maven/maven_setting.xml)
 
 
 ### 2.4 面试相关
