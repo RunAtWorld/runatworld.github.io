@@ -20,7 +20,7 @@
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 + 开发
    - [maven 命令](./maven/mavencmd.md) / [maven仓库配置](./maven/maven_setting.xml)
-   - 日志: [logback]
+   - 日志: [logback](./dev/logback/logback.md)
 
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
