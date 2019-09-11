@@ -8,7 +8,7 @@
     - Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
 # 2. SRE/Ops
-### 2.1 [Linux Funny](https://github.com/hbulpf/LinuxFun)
+### 2.1 [Linux 学习与工具](https://github.com/hbulpf/LinuxFun)
 
 ### 2.2 人工运维自动化
 1. [Linux服务器常见运维脚本](https://github.com/hbulpf/ServerOps)
