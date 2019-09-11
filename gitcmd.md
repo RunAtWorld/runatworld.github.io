@@ -11,6 +11,10 @@ ssh-keygen -t rsa -C "goodlpf00@gmail.com"	#生成公钥和私钥对
 cat ~/.ssh/id_rsa.pub #查看公钥信息
 ssh git@bitbucket.org	#测试ssh的密钥对  #在linux下，如果测试不通过，键入命令: add-ssh ~/.ssh/id_rsa   
 ```
+### 从本地仓库创建远程仓库
+```
+git push --set-upstream ssh://git@github.com:RunAtWorld/$(git rev-parse --show-toplevel | xargs basename).git $(git rev-parse --abbrev-ref HEAD)
+```
 
 ### 克隆仓库
 ```
