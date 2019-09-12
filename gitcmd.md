@@ -81,11 +81,15 @@ git branch --set-upstream-to dev_loacal origin/dev  #将本地分支dev_loacal�
 git branch --set-upstream-to=origin/dev dev_loacal #将本地分支dev_loacal与远程的dev建立联系  
 ```
 
-1. 储存当前状态
+1. [储存当前状态](https://git-scm.com/book/zh/v1/Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%EF%BC%88Stashing%EF%BC%89)
 ```
 git stash #储藏当前状态，切换到其他分支  
+git stash save stash_1 #储存当前状态，并命名为stash_1
 git stash list	#查看储藏状态的列表  
 git stash apply stash_1	#回到原来某个工作状态stash_1，恢复之前的工作状态  
+git stash drop stash_1 #删除stash_1储藏
+git stash pop stash_1 #弹出stash_1,回到原来某个工作状态stash_1,不删除stash_1
+git stash branch testchanges #从储藏中创建分支testchanges,检出你储藏工作时的所处的提交，重新应用你的工作，如果成功，将会丢弃储藏
 ```
 
 ### 远程分支
