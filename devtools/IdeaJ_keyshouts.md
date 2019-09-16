@@ -38,26 +38,26 @@ Alt+ ←/→       切换代码页面
 Ctrl＋O    选择父类的方法进行重写
 F2 或Shift+F2  高亮错误或警告快速定位
 Ctrl+W        选中代码，连续按会有选中更多的块
-Ctrl＋Alt＋B    跳转到抽象方法的实现
 Alt＋F7  查找使用类、方法或者变量的位置
 选中文本，按Ctrl+Shift+F7 ，高亮显示所有该文本，按Esc高亮消失。
 选中文本，按F3 ，逐个往下查找相同文本，并高亮显示。
 Ctrl+H    显示类结构图
 Alt＋Q    当前方法的声明
 Ctrl+E       显示最近编辑的文件列表
-
 Ctrl＋Shift＋Backspace    可以跳转到上次编辑的地方
 Ctrl+E 或者 Alt+Shift+C   最近更改的代码
 Alt+1       快速打开或隐藏工程面板
 
-Shift＋Click可以关闭文件
+Ctrl+B      打开光标处的类或方法的声明
+Ctrl＋Alt＋B    跳转到抽象方法的实现
+
+Shift＋Click    关闭文件
 Ctrl+Shift+Alt+N 查找类中的方法或变量
-Alt+Shift+C 对比最近修改的代码
+Alt+Shift+C  对比最近修改的代码
 代码标签输入完成后，按Tab，生成代码。
-Ctrl+B 快速打开光标处的类或方法 
 
 Ctrl＋F7     查询当前元素在当前文件中的引用，然后按F3可以选择
 Ctrl＋Shift＋Insert可以选择剪贴板内容并插入
-Ctrl＋Alt＋V 可以引入变量。例如把括号内的SQL赋成一个变量
+Ctrl＋Alt＋V   引入变量。例如把括号内的SQL赋成一个变量
 ```
 
