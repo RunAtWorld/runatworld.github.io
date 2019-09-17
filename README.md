@@ -16,7 +16,7 @@ Java 开发人员手册
 
 ### 2.3 DevOps
 + 设计工具
-	- 服务接口设计 ： [swagger-editor](https://github.com/swagger-api/swagger-editor)/[试用](https://editor.swagger.io/)
+	- 服务接口设计 ： [swagger-editor](https://github.com/swagger-api/swagger-editor)/[试用](https://editor.swagger.io/) [swagger-codegen](https://github.com/swagger-api/swagger-codegen)
 	
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
@@ -47,7 +47,7 @@ Java 开发人员手册
 	1. [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
 1. Docker 容器
 	1. [Docker 常见命令](./docker/docker_cmd.md)
-    1. [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
+    	1. [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
     
 # 4. 大数据
 ## 4.1 Hadoop生态
