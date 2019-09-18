@@ -12,9 +12,10 @@
 1. MyBatis
 	+ Mybatis Builder: 通过IDEAJ连接数据库并将mbg的功能图形化
 	+ Mybatis Generator: 也叫MBG,可以生成Mybatis的 Mapper/Entity/SqlMap.xml 的文件
-
+ 	+ [Free MyBatis plugin](https://plugins.jetbrains.com/plugin/8321-free-mybatis-plugin/):在xml文件和mapper之间跳转
+	
 1. 其他:	
- + [Free MyBatis plugin](https://plugins.jetbrains.com/plugin/8321-free-mybatis-plugin/)	
+	
 
 # 前端
 ### VUE
