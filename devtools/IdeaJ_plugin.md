@@ -13,6 +13,9 @@
 	+ [Mybatis Builder](https://plugins.jetbrains.com/plugin/12449-mybatis-builder/versions)(适用IdeaJ 2019后的版本): 通过IDEAJ连接数据库并将 Mybatis Generator 的功能图形化,生成Mybatis的 Mapper/Entity/SqlMap.xml 的文件。
 	+ [Free MyBatis plugin](https://plugins.jetbrains.com/plugin/8321-free-mybatis-plugin/):在xml文件和mapper之间跳转
 	+ [Build Mybatis File](https://github.com/moshangren11/MybatisPlugin): 和[Mybatis Builder](https://plugins.jetbrains.com/plugin/12449-mybatis-builder/versions) 相同，没那么好用，但可以兼容IdeaJ 2019前的版本。
+	```
+	Mybatis Generator不需要、MyBatis plugin收费
+	```
  	
 	
 1. 其他:	
