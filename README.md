@@ -16,7 +16,7 @@ Java 开发人员手册
 
 ### 2.3 DevOps
 + 设计工具
-	- 服务接口设计 ： [swagger-editor](https://github.com/swagger-api/swagger-editor)/[试用](https://editor.swagger.io/) [swagger-codegen](https://github.com/swagger-api/swagger-codegen)
+	- 服务接口设计 ： [swagger](./swagger/swagger.md)
 	
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
