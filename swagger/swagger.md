@@ -2,7 +2,7 @@
 
 ## [swagger](https://swagger.io/) 的各个功能模块
 
-1. [Swagger Editor](https://editor.swagger.io): 类似于markendown编辑器的编辑Swagger描述文件的编辑器，该编辑支持实时预览描述文件的更新效果。也提供了在线编辑器和本地部署编辑器两种方式。
+1. [Swagger Editor](https://editor.swagger.io): 类似于markendown编辑器的编辑Swagger描述文件的编辑器，该编辑支持实时预览描述文件的更新效果。也提供了在线编辑器和本地部署编辑器两种方式。可以通过[源码](https://github.com/swagger-api/swagger-editor)进行安装。
 
 1. [Swagger Codegen](./swagger-code-gen.md): 通过Codegen 可以将描述文件生成html格式和cwiki形式的接口文档，同时也能生成多钟语言的服务端和客户端的代码。支持通过jar包，docker，node等方式在本地化执行生成。也可以在后面的Swagger Editor中在线生成。
 
