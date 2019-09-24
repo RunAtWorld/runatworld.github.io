@@ -232,6 +232,11 @@ git push --set-upstream origin dev_local:dev #本地分支dev_local推送到远�
 git checkout -b dbg_lichen_star
 git push origin dbg_lichen_star:dbg_lichen_star
 ```
+### 2. 树形展示日志
+
+```
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+```
 
 ### gitignore 说明
 ```
