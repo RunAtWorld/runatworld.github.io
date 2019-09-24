@@ -158,6 +158,10 @@ git reset --mixed <指定版本HASH> #不删除工作空间改动代码，撤销
                                #这个是默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
 git reset --soft <指定版本HASH> #不删除工作空间改动代码，撤销commit，不撤销git add .
 git reset --hard <指定版本HASH> #删除工作空间改动代码，撤销commit，撤销git add . ，恢复到了上一次的commit状态
+
+git reset --soft HEAD^  #撤销commit
+git reset --soft HEAD~1 #撤销前1次commit
+git reset --soft HEAD~2  #撤销前2次commit
 ```
 
 ### 查看状态与日志
