@@ -152,6 +152,18 @@ git push origin :refs/tags/v1.0.0  #删除github远端的指定tag
 git push origin --delete v1.0.0 
 ```
 
+### git reset
+```
+git reset --mixed <指定版本HASH> #不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+                               #这个是默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
+git reset --soft <指定版本HASH> #不删除工作空间改动代码，撤销commit，不撤销git add .
+git reset --hard <指定版本HASH> #删除工作空间改动代码，撤销commit，撤销git add . ，恢复到了上一次的commit状态
+
+git reset --soft HEAD^  #撤销commit
+git reset --soft HEAD~1 #撤销前1次commit
+git reset --soft HEAD~2  #撤销前2次commit
+```
+
 ### 查看状态与日志
 1. 查看状态
 ```
@@ -171,8 +183,6 @@ git log --no-merges origin/dev  #列出远程dev分支没有合并前的变化
 ```
 git checkout . #本地所有修改的。没有的提交的，都返回到原来的状态
 git stash #把所有没有提交的修改暂存到stash里面。可用git stash pop回复。
-git reset --hard <指定版本HASH> #返回到某个节点，不保留修改。
-git reset --soft <指定版本HASH> #返回到某个节点。保留修改
 
 git clean -df #返回到某个节点
 git clean 参数
@@ -231,6 +241,26 @@ git push --set-upstream origin dev_local:dev #本地分支dev_local推送到远�
 ```
 git checkout -b dbg_lichen_star
 git push origin dbg_lichen_star:dbg_lichen_star
+```
+### 2. 树形展示日志
+
+```
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+```
+
+### 3. 彻底删除远程仓库所有文件
+```
+git clone git@github.com:ACCOUNT/REPO.wiki.git
+cd REPO.wiki
+git checkout --orphan empty
+git rm --cached -r .
+git commit --allow-empty -m 'wiki deleted'
+git push origin empty:master --force
+```
+
+### 4. 如果commit注释写错了，只是想改一下注释，只需要：
+```
+git commit --amend
 ```
 
 ### gitignore 说明
