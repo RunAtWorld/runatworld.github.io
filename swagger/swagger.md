@@ -13,15 +13,23 @@
 
 1. Swagger Hub：集成了上面所有项目的各个功能，你可以以项目和版本为单位，将你的描述文件上传到Swagger Hub中。在Swagger Hub中可以完成上面项目的所有工作，需要注册账号，分免费版和收费版。
 
-其他：
+### swagger 各功能模块的开源仓库
+1. swagger-editor . https://github.com/swagger-api/swagger-editor
+1. swagger-ui . https://github.com/swagger-api/swagger-ui
+1. swagger-codegen . https://github.com/swagger-api/swagger-codegen
+1. swagger-core . https://github.com/swagger-api/swagger-core
 
+### 其他
 1. Springfox Swagger: Spring 基于swagger规范，可以将基于SpringMVC和Spring Boot项目的项目代码，自动生成JSON格式的描述文件。本身不是属于Swagger官网提供的，在这里列出来做个说明，方便后面作一个使用的展开。
 
-## Springfox Swagger Demo 
-  参考 [Springfox Swagger Demo 代码](https://github.com/RunAtWorld/swagger-demo)
+### [Springfox Swagger Demo 代码](https://github.com/RunAtWorld/swagger-demo)
+
+## Swagger Editor 的使用
+
 
 ## 参考
 1. Swagger介绍及使用 . https://www.jianshu.com/p/349e130e40d5
 1. 在线API文档工具swagger . https://blog.csdn.net/sej520/article/details/84915999
-1. swagger-codegen . https://github.com/swagger-api/swagger-codegen
 1. swagger-codegen生成java客户端代码 . https://blog.csdn.net/wangjunjun2008/article/details/53200437
+1. swagger-editor的介绍与使用 . https://www.cnblogs.com/shamo89/p/7680941.html
+1. Swagger Codegen简介 . https://www.cnblogs.com/shamo89/p/7680771.html
