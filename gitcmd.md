@@ -238,6 +238,16 @@ git push origin dbg_lichen_star:dbg_lichen_star
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 ```
 
+### 3. 彻底删除远程仓库所有文件
+```
+git clone git@github.com:ACCOUNT/REPO.wiki.git
+cd REPO.wiki
+git checkout --orphan empty
+git rm --cached -r .
+git commit --allow-empty -m 'wiki deleted'
+git push origin empty:master --force
+```
+
 ### gitignore 说明
 ```
 #               表示此为注释,将被Git忽略
