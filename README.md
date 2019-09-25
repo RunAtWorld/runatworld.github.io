@@ -23,7 +23,7 @@ Java 开发人员手册
 	- [svn 常用指令](./svn_cmd.md)
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 	
-+ 开发
++ [开发](dev/)
 	- [Java 开发](./dev/java/)
 		+ [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
 		+ 日志: [logback](./dev/java/logback/logback.md)
