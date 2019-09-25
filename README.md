@@ -15,16 +15,19 @@ Java 开发人员手册
 1. [Windows 常用命令](./windows/windows_cmd.md)
 
 ### 2.3 DevOps
-+ 设计工具
-	- 服务接口设计 ： [swagger](./swagger/swagger.md)
-	
++ 工具
+   - 服务接口设计 ： [swagger](./swagger/swagger.md)
+   - [开发工具](devtools/)： [IdeaJ](devtools/)	
+   
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
+	
 + 开发
-   - [maven 命令](./maven/mavencmd.md) / [maven仓库配置](./maven/maven_setting.xml)
-   - [开发工具](devtools/)： [IdeaJ](devtools/)
-   - 日志: [logback](./dev/logback/logback.md)
+   - [Java 开发](./dev/java/)
+	- [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
+	- 日志: [logback](./dev/java/logback/logback.md)
+   - [Mysql](./dev/mysql/)
 
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
