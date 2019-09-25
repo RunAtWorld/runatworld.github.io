@@ -7,15 +7,17 @@ Java 开发人员手册
 3. Java 学习资源
     - Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
-# 2. SRE/Ops
-### 2.1 [Linux 学习与工具](https://github.com/hbulpf/LinuxFun)
+# 2. Dev/Ops
+### 2.1 命令与应用
+#### 2.1.1 Linux
+1. [Linux 命令与应用](https://github.com/hbulpf/LinuxFun)
+1. [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps)
 
-### 2.2 人工运维自动化
-1. [Linux服务器常见运维脚本](https://github.com/hbulpf/ServerOps)
+#### 2.1.2 Windows
 1. [Windows 常用命令](./windows/windows_cmd.md)
 
-### 2.3 DevOps
-+ 工具
+### 2.2 开发相关
++ 开发人员工具
    - 服务接口设计 ： [swagger](./swagger/swagger.md)
    - [开发工具](devtools/)： [IdeaJ](devtools/)	
    
@@ -23,7 +25,7 @@ Java 开发人员手册
 	- [svn 常用指令](./svn_cmd.md)
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 	
-+ [开发](dev/)
++ [开发技术与框架](dev/)
 	- [Java 开发](./dev/java/)
 		+ [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
 		+ 日志: [logback](./dev/java/logback/logback.md)
@@ -33,18 +35,6 @@ Java 开发人员手册
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
 2. [hr面试](./interview/hr.md)
-
-### 2.5 其他资源
-1. 常用软件资源
-
-资源名 | 资源链接
------------- | -------------
-网易开源镜像站 | http://mirrors.163.com
-清华大学开源软件镜像站 | https://mirrors.tuna.tsinghua.edu.cn
-中科大开源软件镜像站 | http://mirrors.ustc.edu.cn/
-阿里巴巴开源软件镜像站 | http://mirrors.aliyun.com/
-
- [更多开源镜像资源...](./mirrors.md)
 
 # 3. 云计算
 1. 云存储
@@ -70,6 +60,19 @@ Java 开发人员手册
 1. [机器学习仓库](./ml/README.md)
 
 # 6. 其他
+## 6.1. 常用软件资源
+
+资源名 | 资源链接
+------------ | -------------
+网易开源镜像站 | http://mirrors.163.com
+清华大学开源软件镜像站 | https://mirrors.tuna.tsinghua.edu.cn
+中科大开源软件镜像站 | http://mirrors.ustc.edu.cn/
+阿里巴巴开源软件镜像站 | http://mirrors.aliyun.com/
+
+ [更多开源镜像资源...](./mirrors.md)
+
+
+## 6.2 其他内容
 1. [重点看的书](./BookList.md)
 2. [正在学习](./interview/todo.md) 
 
