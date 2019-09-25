@@ -7,11 +7,15 @@ Java 开发人员手册
 	+ [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo)
 	+ [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo)
 
-2.  算法练习
+1. GO 基础操练
+	+ [GoLang入门](https://github.com/RunAtWorld/golang_faq)
+
+1.  算法练习
 	- [各种语言的各种算法](https://github.com/TheAlgorithms)
-	
-3. Java 学习资源
-    - Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
+
+1. 学习资源
+	+ Java 学习资源
+		- Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
 # 2. Dev/Ops
 ### 2.1 命令与应用
@@ -43,12 +47,15 @@ Java 开发人员手册
 2. [hr面试](./interview/hr.md)
 
 # 3. 云计算
+1. Docker与Kubernetes
+	+ 入门与应用
+		1. [Docker 实验室](https://github.com/RunAtWorld/dockerlab)
+	+ 项目
+		1. [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
+
 1. 云存储
 	1. [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
-1. Docker 容器
-	1. [Docker 常见命令](./docker/docker_cmd.md)
-    	1. [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
-    
+
 # 4. 大数据
 ## 4.1 Hadoop生态
 1. Hadoop
