@@ -1,9 +1,15 @@
 Java 开发人员手册
 
 # 1. 基础练习
-1. Java 代码仓库: [https://github.com/RunAtWorld/JavaPrinciple](https://github.com/RunAtWorld/JavaPrinciple)
+1. Java 基础操练与框架应用
+	+ [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple)
+	+ [Spring Demo](https://github.com/RunAtWorld/spring01-demo)
+	+ [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo)
+	+ [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo)
+
 2.  算法练习
 	- [各种语言的各种算法](https://github.com/TheAlgorithms)
+	
 3. Java 学习资源
     - Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
