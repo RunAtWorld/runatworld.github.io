@@ -2,13 +2,13 @@
 1. [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper/)
 1. [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok/)
 1. 代码/Bug静态检查
-	1. [CheckStyle-IDEA](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea/) ，[配置文件设置](https://checkstyle.sourceforge.io/checks.html)
-	1. [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/)
-	1. [Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter/)
-	1. [FindBugs-IDEA](https://plugins.jetbrains.com/plugin/3847-findbugs-idea/) [配置文件设置](http://findbugs.sourceforge.net/bugDescriptions.html) : 检查对象为字节码
-	1. [PMDPlugin](https://plugins.jetbrains.com/plugin/1137-pmdplugin/) [配置文件设置](https://pmd.github.io/pmd-6.15.0/pmd_rules_java.html) : 检查对象为源代码
-	1. [Cobertura]() : 白盒测试，UT覆盖率测试
-	1. [Save Actions](https://plugins.jetbrains.com/plugin/7642-save-actions/) 
+	+ [CheckStyle-IDEA](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea/) ，[配置文件设置](https://checkstyle.sourceforge.io/checks.html)
+	+ [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines/)
+	+ [Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter/)
+	+ [FindBugs-IDEA](https://plugins.jetbrains.com/plugin/3847-findbugs-idea/) [配置文件设置](http://findbugs.sourceforge.net/bugDescriptions.html) : 检查对象为字节码
+	+ [PMDPlugin](https://plugins.jetbrains.com/plugin/1137-pmdplugin/) [配置文件设置](https://pmd.github.io/pmd-6.15.0/pmd_rules_java.html) : 检查对象为源代码
+	+ [Cobertura]() : 白盒测试，UT覆盖率测试
+	+ [Save Actions](https://plugins.jetbrains.com/plugin/7642-save-actions/) 
 
 1. MyBatis
 	+ [Mybatis Builder](https://plugins.jetbrains.com/plugin/12449-mybatis-builder/versions)(适用IdeaJ 2019后的版本): 通过IDEAJ连接数据库并将 Mybatis Generator 的功能图形化,生成Mybatis的 Mapper/Entity/SqlMap.xml 的文件。
