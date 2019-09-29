@@ -158,14 +158,36 @@ book.json 用于存放配置信息。
 
 
 # GitBook 插件
+GitBook 有 插件官网，默认带有 5 个插件，highlight、search、sharing、font-settings、livereload，如果要去除自带的插件， 可以在插件名称前面加 -，比如：
+```
+"plugins": [
+    "-search"
+]
+```
 
-安装插件只需要在书籍目录下增加 book.json 文件,然后执行
+如果要配置使用的插件可以在 `book.json` 文件中加入即可，比如添加 `plugin-github`，在 book.json 中加入配置如下：
+
+```
+{
+    "plugins": [ "github" ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/your/repo"
+        }
+    }
+}
+```
+然后在终端输入
 
 ```
 gitbook install
 ```
 
 以上命令相当于 `gitbook install ./`
+
+如果要指定插件的版本可以使用 `plugin@0.3.1` ，因为一些插件可能不会随着 GitBook 版本的升级而升级。
+
+## 各种用途插件
 
 1. 折叠目录 
 
@@ -183,4 +205,4 @@ gitbook install
 
 
 # 参考
-1. 
+1. [GitBook 使用教程](https://www.jianshu.com/p/421cc442f06c)
