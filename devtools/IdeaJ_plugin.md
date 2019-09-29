@@ -7,7 +7,7 @@
 	1. [Eclipse Code Formatter](https://plugins.jetbrains.com/plugin/6546-eclipse-code-formatter/)
 	1. [FindBugs-IDEA](https://plugins.jetbrains.com/plugin/3847-findbugs-idea/) [配置文件设置](http://findbugs.sourceforge.net/bugDescriptions.html) : 检查对象为字节码
 	1. [PMDPlugin](https://plugins.jetbrains.com/plugin/1137-pmdplugin/) [配置文件设置](https://pmd.github.io/pmd-6.15.0/pmd_rules_java.html) : 检查对象为源代码
-	1. [Cobertura]() : 白盒测试，UT检查
+	1. [Cobertura]() : 白盒测试，UT覆盖率测试
 	1. [Save Actions](https://plugins.jetbrains.com/plugin/7642-save-actions/) 
 
 1. MyBatis
