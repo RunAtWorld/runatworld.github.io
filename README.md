@@ -27,10 +27,7 @@ Java 开发人员手册
 1. [Windows 常用命令](./windows/windows_cmd.md)
 
 ### 2.2 开发相关
-+ 开发人员工具
-   - 服务接口设计 ： [swagger](./swagger/swagger.md)
-   - [开发工具](devtools/)： [IdeaJ](devtools/)	
-   
+
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
 	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
@@ -41,6 +38,16 @@ Java 开发人员手册
 		+ 日志: [logback](./dev/java/logback/logback.md)
 	
    - [Mysql](./dev/mysql/)
+
++ 开发人员工具
+
+用途 | - | - | -
+ --- | --- | --- | ---
+服务接口设计 |  [swagger](./tools/swagger/README.md)
+开发工具 | [IdeaJ](devtools/Idea.md)
+版本控制 | [Git 命令](gitcmd.md) | [SVN 命令](svn_cmd.md)	
+文档写作 | [Markdown](tools/markdown.md) | [GitBook](tools/gitbook.md) | [绘图工具](tools/painting.md)
+   
 
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
