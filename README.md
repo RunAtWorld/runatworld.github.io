@@ -43,7 +43,7 @@ Java 开发人员手册
 
 用途 | - | - | -
  --- | --- | --- | ---
-服务接口设计 |  [swagger](./tools/swagger/README.md)
+接口设计 |  [swagger](./tools/swagger/README.md)
 开发工具 | [IdeaJ](devtools/Idea.md)
 版本控制 | [Git](gitcmd.md) | [SVN](svn_cmd.md)	
 文档写作 | [Markdown](tools/markdown.md) | [GitBook](tools/gitbook.md) | [绘图工具](tools/painting.md)
