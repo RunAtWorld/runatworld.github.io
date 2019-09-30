@@ -255,7 +255,7 @@ D-->>A: Dashed open arrow
         验收: 3d
 ```
 
-#### 更多语法参考：[甘特图语法参考](https://knsv.github.io/mermaid/#gant-diagrams)
+#### 更多语法参考：[甘特图语法参考](https://knsv.github.io/mermaid/#/gantt)
 
 ### 10. Mermaid 流程图
 
