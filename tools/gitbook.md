@@ -200,6 +200,7 @@ gitbook install
         }
     }
     ```
+[了解更多插件](gitbook_plugins.md)
 
 # 与 github 关联
 
