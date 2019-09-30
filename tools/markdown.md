@@ -1,4 +1,4 @@
-# Cmd Markdown 简明语法手册
+# Markdown 简明语法手册
 
 标签： Markdown 语法手册
 
@@ -266,7 +266,7 @@ D-->>A: Dashed open arrow
     C -->|Two| E[Result two]
 ```
 
-#### 更多语法参考：[Mermaid 流程图语法参考](https://knsv.github.io/mermaid/#flowcharts-basic-syntax)
+#### 更多语法参考：[Mermaid 流程图语法参考](https://knsv.github.io/mermaid/#/flowchart)
 
 ### 11. Mermaid 序列图
 
@@ -277,7 +277,7 @@ D-->>A: Dashed open arrow
     end
 ```
 
-#### 更多语法参考：[Mermaid 序列图语法参考](https://knsv.github.io/mermaid/#sequence-diagrams)
+#### 更多语法参考：[Mermaid 序列图语法参考](https://knsv.github.io/mermaid/#/sequenceDiagram)
 
 ### 12. 表格支持
 
