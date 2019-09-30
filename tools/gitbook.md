@@ -205,4 +205,11 @@ gitbook install
 
 
 # 参考
-1. [GitBook 使用教程](https://www.jianshu.com/p/421cc442f06c)
+1. [gitbook 官网](https://docs.gitbook.com/v2-changes/important-differences)
+2. [GitBook 插件](http://gitbook.zhangjikai.com/plugins.html)
+3. [Gitbook 的使用和常用插件](https://zhaoda.net/2015/11/09/gitbook-plugins)
+4. [一个基于gitbook快速写电子书的模版，支持html、pdf、docx、epub、mobi](https://github.com/yanhaijing/gitbook-boilerplate)
+5. [用github做出第一本书](https://blog.csdn.net/hk2291976/article/details/51173850)
+6. [知乎GitBook 使用教程](https://www.jianshu.com/p/421cc442f06c)
+
+
