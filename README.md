@@ -46,7 +46,7 @@ Java 开发人员手册
 接口设计 |  [swagger](./tools/swagger/README.md)
 开发工具 | [IdeaJ](devtools/Idea.md)
 版本控制 | [Git](gitcmd.md) | [SVN](svn_cmd.md)	
-文档写作 | [Markdown](tools/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting.md)
+文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
    
 
 ### 2.4 面试相关
