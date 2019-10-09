@@ -331,6 +331,17 @@ git branch --set-upstream-to=origin/master master #建立本地master分支与�
     git push -u origin master
     ```
 
+1. 上传ssh-key后仍须输入密码
+  这种事情通常发生使用https方式克隆仓库的时候，解决的方法是使用ssh方式克隆仓库。
+  如果已经用https方式克隆了仓库，就不必删除仓库重新克隆，只需将 .git/config文件中的
+  ```
+   url = https://github.com/Name/project.git
+  ```
+  一行改为
+  ```
+   url = git@github.com:Name/project.git
+  ```
+
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
 2. [git官方教程：https://git-scm.com/book/zh/v2/](https://git-scm.com/book/zh/v2/)
