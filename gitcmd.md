@@ -72,6 +72,7 @@ git merge branch4 #将branch4分支与当前分支合并
 git branch -r   #列出远程分支
 git branch -v   #列出本地分支
 git branch -a   #列出本地和远程所有分支
+git branch -vv   #列出本地分支与远程分支的对应关系
 ```
 
 1. 与远程分支建立联系
