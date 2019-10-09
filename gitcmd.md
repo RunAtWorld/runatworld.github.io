@@ -287,60 +287,60 @@ config.php:     表示忽略当前路径的 config.php 文件
 /mtk/do.c       表示过滤某个具体文件
 ```
 # FAQ
-1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：`Agent admitted failure to sign using the key` 错误。  
+#### 1. SSH生成id_rsa,id_rsa.pub后，连接服务器却报：`Agent admitted failure to sign using the key` 错误。  
 解决：在当前用户下执行命令：
 ```
 ssh-add
 ```
 即可解决。
 
-1. 本地文件夹与远程库建立关联
+#### 2. 本地文件夹与远程库建立关联
 ```
 git init .
 git remote add origin git@github.com:RunAtWorld/ceph_manual.git  #与远程主机关联
 git branch --set-upstream-to=origin/master master #建立本地master分支与远程master分支的关联
 ```
 
-1. 本地项目上传到git   
-    (1) 进入项目文件夹,通过命令 git init 把这个目录变成git可以管理的仓库
-    ```
-    git init
-    ```
-    (2) 把文件添加到版本库中
-    ```
-    git add .
-    ```
-    (3) 用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
-    ```
-    git commit -m 'first commit'
-    ```
-    (4) 关联到远程库
-    ```
-    git remote add origin 你的远程库地址
-    ```
-    如
-    ```
-    git remote add origin https://github.com/cade8800/ionic-demo.git
-    ```
-   (5) 获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
-    ```
-    git pull --rebase origin master
-    ```
-   (6) 把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。
-    ```
-    git push -u origin master
-    ```
+#### 3. 本地项目上传到git   
+(1) 进入项目文件夹,通过命令 git init 把这个目录变成git可以管理的仓库
+```
+git init
+```
+(2) 把文件添加到版本库中
+```
+git add .
+```
+(3) 用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明
+```
+git commit -m 'first commit'
+```
+(4) 关联到远程库
+```
+git remote add origin 你的远程库地址
+```
+如
+```
+git remote add origin https://github.com/cade8800/ionic-demo.git
+```
+(5) 获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）
+```
+git pull --rebase origin master
+```
+(6) 把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。
+```
+git push -u origin master
+```
 
-1. 上传ssh-key后仍须输入密码
-  这种事情通常发生使用https方式克隆仓库的时候，解决的方法是使用ssh方式克隆仓库。
-  如果已经用https方式克隆了仓库，就不必删除仓库重新克隆，只需将 .git/config文件中的
-  ```
-   url = https://github.com/Name/project.git
-  ```
-  一行改为
-  ```
-   url = git@github.com:Name/project.git
-  ```
+#### 4. 上传ssh-key后仍须输入密码
+这通常发生使用https方式克隆仓库的时候，解决的方法是使用ssh方式克隆仓库。
+如果已经用https方式克隆了仓库，就不必删除仓库重新克隆，只需将 .git/config文件中的
+```
+ url = https://github.com/Name/project.git
+```
+一行改为
+```
+ url = git@github.com:Name/project.git
+```
 
 # 参考
 1. [易百git教程：https://www.yiibai.com/git/git_basic_concepts.html](https://www.yiibai.com/git/git_basic_concepts.html)
