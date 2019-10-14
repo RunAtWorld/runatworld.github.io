@@ -1,3 +1,5 @@
+IDEA 好用插件
+
 # 后台Java
 1. [Maven Helper](https://plugins.jetbrains.com/plugin/7179-maven-helper/)
 1. [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok/)
