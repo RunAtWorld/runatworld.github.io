@@ -3,8 +3,8 @@ Java 开发人员手册
 # 1. 基础练习
 #### 1.1 Java 
 
-- | - | - | -
- --- | --- | --- | ---
+ 语言 | - | - | -
+--- | --- | --- | ---
 [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo)
 
 1. GO 基础操练
