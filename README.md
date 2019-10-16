@@ -43,7 +43,8 @@ mysql | [Mysql](./dev/mysql/)
  
  类别 | - 
 --- | --- 
-vue | [vue-demo](https://github.com/RunAtWorld/vue-demo)
+教程 | [前端教程](https://github.com/hbulpf/Web)
+vue | [vue-demo](https://github.com/RunAtWorld/vue-demo) 
 
 #### 1.7 其他
  类别 | -  | -  | - 
