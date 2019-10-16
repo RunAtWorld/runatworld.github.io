@@ -70,13 +70,12 @@ hr | [hr面试](./interview/hr.md)
 
 # 3. 云计算
 1. Docker与Kubernetes
+
 类别 | - | - | -
 --- | --- | --- | ---
 Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab)
 K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
-
-1. 云存储
-	+ [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
+云存储 | [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
 
 # 4. 大数据
 ## 4.1 Hadoop生态
@@ -112,7 +111,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 2. [正在学习](./interview/todo.md) 
 
 ## 6.3 其他
-1. [问问题的礼仪](manners/)
+1. [问问题的礼仪](manners/How-To-Ask-Questions-The-Smart-Way.md)
 
 
 ---------------------------
