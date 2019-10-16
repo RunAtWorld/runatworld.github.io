@@ -248,7 +248,7 @@ git format-patch <old-commit-sha>...<new-commit-sha> -o <patch-file-dir>
 ```
 如:
 ```
-git format-patch 0f500e44965c2ed502b1d35b6d4d3926ac449c05...d37885d260bb228f00739c1bceea888a8841d48b -o ~/temp_patch/
+git format-patch 0f500e44965c2e1d3449c05...d37885d260bb228f0a8841d48b -o ~/temp_patch/
 ```
 
 生成文件/Users/stone/temp_patch/0001-add-content-to-bb.c.patch
