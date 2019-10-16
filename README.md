@@ -13,7 +13,7 @@ MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybati
 #### 1.2 GO
  类别 | - 
 --- | --- 
-GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example)
+GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
 
 #### 1.3 Python
 
@@ -27,9 +27,16 @@ Python | [Python常用Sample](https://github.com/RunAtWorld/Python) |
 算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) |
 
 #### 1.5 数据库
+
  类别 | - 
 --- | --- 
 mysql | [Mysql](./dev/mysql/)
+
+#### 1.6 其他
+ 类别 | - 
+--- | --- 
+IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep)
+Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 
 # 2. Dev/Ops
 ### 2.1 命令与应用
