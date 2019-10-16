@@ -1,0 +1,174 @@
+Java 开发人员手册
+
+# 1. 基础练习
+#### 1.1 Java 
+
+ 类别 | - | - | - 
+--- | --- | --- | --- 
+Java | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
+Spring | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | 
+MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo) | [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
+Android | [AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
+
+#### 1.2 GO
+ 类别 | - 
+--- | --- 
+GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) | [Go Web](https://github.com/RunAtWorld/build-web-application-with-golang)
+函数库 |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
+项目 | [bbs-go](https://github.com/RunAtWorld/bbs-go)
+工具 | [goproxy](https://github.com/RunAtWorld/goproxy)
+
+#### 1.3 Python
+
+类别 | - 
+--- | --- 
+Python | [Python 100 Days](https://github.com/RunAtWorld/Python-100-Days) | [Python常用Sample](https://github.com/RunAtWorld/Python) |
+项目 | [python-spider](https://github.com/RunAtWorld/python-spider) | [知乎爬虫]](https://github.com/RunAtWorld/Zhihu_bigdata)
+
+#### 1.4 算法
+ 类别 | - | -
+--- | ---  | --
+算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) | [javascript-algorithms](https://github.com/RunAtWorld/javascript-algorithms)
+leetcode | [leetcode](https://github.com/RunAtWorld/leetcode) | [java-leetcode](https://github.com/RunAtWorld/awesome-java-leetcode) | [leetbook](https://github.com/RunAtWorld/leetbook)
+acm | [ACM-Code](https://github.com/RunAtWorld/ACM-Code)
+
+#### 1.5 数据库
+
+ 类别 | - 
+--- | --- 
+mysql | [Mysql](./dev/mysql/)
+
+#### 1.6 前端
+ 
+ 类别 | - 
+--- | --- 
+vue | [vue-demo](https://github.com/RunAtWorld/vue-demo)
+
+#### 1.7 其他
+ 类别 | - 
+--- | --- 
+IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep) | [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot)
+Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
+
+# 2. Dev/Ops
+### 2.1 命令与应用
+
+OS | - | -
+--- | --- | --- 
+Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps) | [shell](https://github.com/RunAtWorld/shell) | [the-art-of-command-line](https://github.com/RunAtWorld/the-art-of-command-line)
+Windows | [Windows 常用命令](./windows/windows_cmd.md)
+
+### 2.2 开发相关
+
++ 版本控制&团队协作
+	- [svn 常用指令](./svn_cmd.md)
+	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
+	
++ [开发技术与框架](dev/)
+	- [Java 开发](./dev/java/)
+		+ [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
+		+ 日志: [logback](./dev/java/logback/logback.md)
+
++ 开发人员工具
+
+用途 | - | - | -
+ --- | --- | --- | ---
+接口设计 |  [swagger](./tools/swagger/README.md)
+开发工具 | [IdeaJ](devtools/Idea.md)
+版本控制 | [Git](gitcmd.md) | [SVN](svn_cmd.md)	
+文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
+  
+### 2.3 效率提升利器
+
+类别 | - | - | -
+ --- | --- | --- | ---
+工具类 | [最常用**开发工具**](https://tool.lu/) | [前端开发网站导航](https://nav.web-hub.cn/) | [MiKuTools](https://tool.imiku.me/) | [atoolbox](http://www.atoolbox.net/) | [toolnb](https://www.toolnb.com/)
+教程类 | [菜鸟教程](https://www.runoob.com/)
+其他 | [在线制作Logo](https://logoly.pro)
+项目集合 | [GitHub-Chinese-Top-Charts](https://github.com/RunAtWorld/GitHub-Chinese-Top-Charts) | [Google Tools](https://github.com/RunAtWorld/xg2xg)
+
+### 2.4 面试相关
+
+类别 | - | - | -
+--- | --- | --- | ---
+笔试 | [写简历](https://github.com/RunAtWorld/resume-1)
+技术面 | [秋招笔记](https://github.com/RunAtWorld/Interview-Notebook) | [`sre/ops` 技术面试](./interview/sre.md)
+hr | [hr面试](./interview/hr.md) 
+
+# 3. 云计算
+1. Docker与Kubernetes
+
+类别 | - | - | -
+--- | --- | --- | ---
+Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab) | [docker-pytorch](https://github.com/RunAtWorld/docker-pytorch)
+K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker) | [K8S examples](https://github.com/RunAtWorld/examples) | [《Kubernetes权威指南 第2版》源代码](https://github.com/RunAtWorld/k8s_2th_guide_code)
+云存储 | [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
+
+# 4. 大数据
+
+类别 | - | - | -
+--- | --- | --- | ---
+大数据 | [大数据架构师应掌握的技能](https://github.com/RunAtWorld/big_data_architect_skills) | 
+
+## 4.1 Hadoop生态
+1. Hadoop
+1. Hive
+1. Pig
+1. HBase
+1. Spark
+
+## 4.2 Hadoop相关部署工具
+1. [hdp](https://hortonworks.com/downloads/#data-platform)
+1. [cdh](https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html)
+1. [ambari](https://ambari.apache.org/)
+
+# 5. 机器学习
+
+1. [机器学习仓库](./ml/README.md)
+2. [AiLearning](https://github.com/apachecn/AiLearning)
+
+## 5.1 Tensorflow
+
+类别 | - | - | -
+--- | --- | --- | ---
+教程 | [Tensorflow教程](https://github.com/RunAtWorld/Tensorflow-Tutorial) | [tensorflow](https://github.com/RunAtWorld/tensorflow)
+项目 | [docker-tensorflow-inception](https://github.com/RunAtWorld/bitnami-docker-tensorflow-inception)
+
+
+# 6. 其他
+## 6.1. 常用软件资源
+
+资源名 | 资源链接
+------------ | -------------
+网易开源镜像站 | http://mirrors.163.com
+清华大学开源软件镜像站 | https://mirrors.tuna.tsinghua.edu.cn
+中科大开源软件镜像站 | http://mirrors.ustc.edu.cn/
+阿里巴巴开源软件镜像站 | http://mirrors.aliyun.com/
+
+ [更多开源镜像资源...](./mirrors.md)
+
+
+## 6.2 进阶之路
+1. [重点看的书](./BookList.md)
+2. [正在学习](./interview/todo.md) 
+3. 大学的课程
+   - [中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
+   - [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
+   - [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+   - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
+   - [北京大学课程资料整理](https://github.com/lib-pku/libpku)
+4. [apachecn](https://github.com/apachecn/home)
+5. [MLBooks](https://github.com/hbulpf/MLBooks)
+
+## 6.3 其他
+1. [问问题的礼仪](manners/How-To-Ask-Questions-The-Smart-Way.md)
+2. 生活
+
+类别 | - | - | -
+--- | --- | --- | ---
+出现 | [12306](https://github.com/RunAtWorld/12306)
+买卖 | [房价预测](https://github.com/RunAtWorld/HousePricing) | [如何买房](https://github.com/houshanren/hangzhou_house_knowledge)
+
+---------------------------
+[`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
+
