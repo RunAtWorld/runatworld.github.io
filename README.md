@@ -63,17 +63,17 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 其他 | [在线制作Logo](https://logoly.pro)
 
 ### 2.4 面试相关
-1. [`sre/ops` 技术面试](./interview/sre.md)
-2. [hr面试](./interview/hr.md)
+类别 | - | - | -
+ --- | --- | --- | ---
+技术面 | [`sre/ops` 技术面试](./interview/sre.md)
+hr | [hr面试](./interview/hr.md)
 
 # 3. 云计算
 1. Docker与Kubernetes
-	+ 入门与应用
-		- [Docker 实验室](https://github.com/RunAtWorld/dockerlab)
-		- [K8S 入门](https://github.com/RunAtWorld/k8spath)
-		
-	+ 项目
-		- [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
+类别 | - | - | -
+--- | --- | --- | ---
+Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab)
+K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
 
 1. 云存储
 	+ [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
@@ -107,9 +107,13 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
  [更多开源镜像资源...](./mirrors.md)
 
 
-## 6.2 其他内容
+## 6.2 进阶之路
 1. [重点看的书](./BookList.md)
 2. [正在学习](./interview/todo.md) 
+
+## 6.3 其他
+1. [问问题的礼仪](manners/)
+
 
 ---------------------------
 [`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
