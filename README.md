@@ -5,26 +5,32 @@ Java 开发人员手册
 
  类别 | - | - | - 
 --- | --- | --- | --- 
-JavaSE | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | -
+Java | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
 Spring | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | 
 MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo) | [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
-
+Android | [AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 
 #### 1.2 GO
  类别 | - 
 --- | --- 
-GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
+GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) | [Go Web](https://github.com/RunAtWorld/build-web-application-with-golang)
+函数库 |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
+项目 | [bbs-go](https://github.com/RunAtWorld/bbs-go)
+工具 | [goproxy](https://github.com/RunAtWorld/goproxy)
 
 #### 1.3 Python
 
 类别 | - 
 --- | --- 
-Python | [Python常用Sample](https://github.com/RunAtWorld/Python) |
+Python | [Python 100 Days](https://github.com/RunAtWorld/Python-100-Days) | [Python常用Sample](https://github.com/RunAtWorld/Python) |
+项目 | [python-spider](https://github.com/RunAtWorld/python-spider) | [知乎爬虫]](https://github.com/RunAtWorld/Zhihu_bigdata)
 
 #### 1.4 算法
- 类别 | - 
---- | --- 
-算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) |
+ 类别 | - | -
+--- | ---  | --
+算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) | [javascript-algorithms](https://github.com/RunAtWorld/javascript-algorithms)
+leetcode | [leetcode](https://github.com/RunAtWorld/leetcode) | [java-leetcode](https://github.com/RunAtWorld/awesome-java-leetcode) | [leetbook](https://github.com/RunAtWorld/leetbook)
+acm | [ACM-Code](https://github.com/RunAtWorld/ACM-Code)
 
 #### 1.5 数据库
 
@@ -32,10 +38,16 @@ Python | [Python常用Sample](https://github.com/RunAtWorld/Python) |
 --- | --- 
 mysql | [Mysql](./dev/mysql/)
 
-#### 1.6 其他
+#### 1.6 前端
+ 
  类别 | - 
 --- | --- 
-IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep)
+vue | [vue-demo](https://github.com/RunAtWorld/vue-demo)
+
+#### 1.7 其他
+ 类别 | - 
+--- | --- 
+IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep) | [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot)
 Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 
 # 2. Dev/Ops
@@ -43,7 +55,7 @@ Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 
 OS | - | -
 --- | --- | --- 
-Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps)
+Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps) | [shell](https://github.com/RunAtWorld/shell) | [the-art-of-command-line](https://github.com/RunAtWorld/the-art-of-command-line)
 Windows | [Windows 常用命令](./windows/windows_cmd.md)
 
 ### 2.2 开发相关
@@ -80,7 +92,7 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 类别 | - | - | -
 --- | --- | --- | ---
 笔试 | [写简历](https://github.com/RunAtWorld/resume-1)
-技术面 | [`sre/ops` 技术面试](./interview/sre.md)
+技术面 | [秋招笔记](https://github.com/RunAtWorld/Interview-Notebook) | [`sre/ops` 技术面试](./interview/sre.md)
 hr | [hr面试](./interview/hr.md) 
 
 # 3. 云计算
@@ -88,8 +100,8 @@ hr | [hr面试](./interview/hr.md)
 
 类别 | - | - | -
 --- | --- | --- | ---
-Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab)
-K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker)
+Docker | [Docker 实验室](https://github.com/RunAtWorld/dockerlab) | [docker-pytorch](https://github.com/RunAtWorld/docker-pytorch)
+K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹性大数据平台](https://github.com/hbulpf/HSDocker) | [K8S examples](https://github.com/RunAtWorld/examples) | [《Kubernetes权威指南 第2版》源代码](https://github.com/RunAtWorld/k8s_2th_guide_code)
 云存储 | [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
 
 # 4. 大数据
@@ -111,7 +123,17 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 1. [ambari](https://ambari.apache.org/)
 
 # 5. 机器学习
+
 1. [机器学习仓库](./ml/README.md)
+2. [AiLearning](https://github.com/apachecn/AiLearning)
+
+## 5.1 Tensorflow
+
+类别 | - | - | -
+--- | --- | --- | ---
+教程 | [Tensorflow教程](https://github.com/RunAtWorld/Tensorflow-Tutorial) | [tensorflow](https://github.com/RunAtWorld/tensorflow)
+项目 | [docker-tensorflow-inception](https://github.com/RunAtWorld/bitnami-docker-tensorflow-inception)
+
 
 # 6. 其他
 ## 6.1. 常用软件资源
@@ -129,10 +151,23 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 ## 6.2 进阶之路
 1. [重点看的书](./BookList.md)
 2. [正在学习](./interview/todo.md) 
+3. 大学的课程
+   - [中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
+   - [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
+   - [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
+   - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
+   - [北京大学课程资料整理](https://github.com/lib-pku/libpku)
+4. [apachecn](https://github.com/apachecn/home)
+5. [MLBooks](https://github.com/hbulpf/MLBooks)
 
 ## 6.3 其他
 1. [问问题的礼仪](manners/How-To-Ask-Questions-The-Smart-Way.md)
+2. 生活
 
+类别 | - | - | -
+--- | --- | --- | ---
+出现 | [12306](https://github.com/RunAtWorld/12306)
+买卖 | [房价预测](https://github.com/RunAtWorld/HousePricing) | [如何买房](https://github.com/houshanren/hangzhou_house_knowledge)
 
 ---------------------------
 [`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
