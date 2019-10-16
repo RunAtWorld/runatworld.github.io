@@ -3,16 +3,17 @@
 # 1. 基础练习
 #### 1.1 Java 
 
- 类别 | - | - | - 
---- | --- | --- | --- 
+ 类别 | - | - | - | - | - 
+--- | --- | --- | --- | --- | --- 
 Java | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [JavaEE](https://github.com/RunAtWorld/JavaEETest)
 Spring | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | 
 MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo) | [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 Android | [AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 
 #### 1.2 GO
- 类别 | - 
---- | --- 
+
+类别 |  -  | -   | -   | -  
+--- | --- | --- | --- | ---
 GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTraining](https://github.com/RunAtWorld/GolangTraining) | [Go Web](https://github.com/RunAtWorld/build-web-application-with-golang)
 函数库 |[GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example) | [go-restful](https://github.com/RunAtWorld/go-restful)
 项目 | [bbs-go](https://github.com/RunAtWorld/bbs-go)
@@ -45,16 +46,16 @@ mysql | [Mysql](./dev/mysql/)
 vue | [vue-demo](https://github.com/RunAtWorld/vue-demo)
 
 #### 1.7 其他
- 类别 | - 
---- | --- 
-IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep) | [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot)
+ 类别 | -  | -  | - 
+--- | --- | --- | --- 
+IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep)| [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot) | 
 Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 
 # 2. Dev/Ops
 ### 2.1 命令与应用
 
-OS | - | -
---- | --- | --- 
+OS | - | - |  - | - |  -
+--- | --- | --- | --- | --- | --- 
 Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps) | [shell](https://github.com/RunAtWorld/shell) | [the-art-of-command-line](https://github.com/RunAtWorld/the-art-of-command-line)
 Windows | [Windows 常用命令](./windows/windows_cmd.md)
 
