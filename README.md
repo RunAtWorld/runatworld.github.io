@@ -3,28 +3,37 @@ Java 开发人员手册
 # 1. 基础练习
 #### 1.1 Java 
 
- 语言 | - | - | -
---- | --- | --- | ---
-[Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo)
+ 类别 | - | - | - 
+--- | --- | --- | --- 
+JavaSE | [Java 基础操练](https://github.com/RunAtWorld/JavaPrinciple) | -
+Spring | [Spring Demo](https://github.com/RunAtWorld/spring01-demo) | 
+MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybatis-demo) | [Spring MyBatisPlus Demo](https://github.com/RunAtWorld/springboot05-MybatisPlus-Demo) | [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
 
-1. GO 基础操练
-	+ [GoLang入门](https://github.com/RunAtWorld/golang_faq)
 
-1.  算法练习
-	- [各种语言的各种算法](https://github.com/TheAlgorithms)
+#### 1.2 GO
+ 类别 | - 
+--- | --- 
+GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) |
 
-1. 学习资源
-	+ Java 学习资源
-		- Java MyBatis : [文档资料](https://down.51cto.com/data/2081927) / [视频教程](http://edu.51cto.com/course/course_id-1354.html)
+#### 1.3 Python
+
+#### 1.4 算法
+ 类别 | - 
+--- | --- 
+算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) |
+
+#### 1.5 数据库
+ 类别 | - 
+--- | --- 
+mysql | [Mysql](./dev/mysql/)
 
 # 2. Dev/Ops
 ### 2.1 命令与应用
-#### 2.1.1 Linux
-1. [Linux 命令与应用](https://github.com/hbulpf/LinuxFun)
-1. [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps)
 
-#### 2.1.2 Windows
-1. [Windows 常用命令](./windows/windows_cmd.md)
+OS | - | -
+--- | --- | --- 
+Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps)
+Windows | [Windows 常用命令](./windows/windows_cmd.md)
 
 ### 2.2 开发相关
 
@@ -36,8 +45,6 @@ Java 开发人员手册
 	- [Java 开发](./dev/java/)
 		+ [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
 		+ 日志: [logback](./dev/java/logback/logback.md)
-	
-   - [Mysql](./dev/mysql/)
 
 + 开发人员工具
 
