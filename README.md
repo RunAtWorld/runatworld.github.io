@@ -53,6 +53,7 @@ Java 开发人员手册
  --- | --- | --- | ---
 工具类 | [最常用**开发工具**](https://tool.lu/) | [前端开发网站导航](https://nav.web-hub.cn/) | [MiKuTools](https://tool.imiku.me/) | [atoolbox](http://www.atoolbox.net/) | [toolnb](https://www.toolnb.com/)
 教程类 | [菜鸟教程](https://www.runoob.com/)
+其他 | [在线制作Logo](https://logoly.pro)
 
 ### 2.4 面试相关
 1. [`sre/ops` 技术面试](./interview/sre.md)
