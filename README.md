@@ -13,9 +13,13 @@ MyBatis| [Spring MyBatis Demo](https://github.com/RunAtWorld/springboot04-mybati
 #### 1.2 GO
  类别 | - 
 --- | --- 
-GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) |
+GO | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GoLang标准库](https://github.com/RunAtWorld/The-Golang-Standard-Library-by-Example)
 
 #### 1.3 Python
+
+类别 | - 
+--- | --- 
+Python | [Python常用Sample](https://github.com/RunAtWorld/Python) |
 
 #### 1.4 算法
  类别 | - 
@@ -56,13 +60,16 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
   
 ### 2.3 效率提升利器
+
 类别 | - | - | -
  --- | --- | --- | ---
 工具类 | [最常用**开发工具**](https://tool.lu/) | [前端开发网站导航](https://nav.web-hub.cn/) | [MiKuTools](https://tool.imiku.me/) | [atoolbox](http://www.atoolbox.net/) | [toolnb](https://www.toolnb.com/)
 教程类 | [菜鸟教程](https://www.runoob.com/)
 其他 | [在线制作Logo](https://logoly.pro)
+项目集合 | [GitHub-Chinese-Top-Charts](https://github.com/RunAtWorld/GitHub-Chinese-Top-Charts) | [Google Tools](https://github.com/RunAtWorld/xg2xg)
 
 ### 2.4 面试相关
+
 类别 | - | - | -
  --- | --- | --- | ---
 技术面 | [`sre/ops` 技术面试](./interview/sre.md)
@@ -78,6 +85,11 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 云存储 | [Ceph 运行维护手册/集群自动化脚本](https://github.com/RunAtWorld/ceph_manual)
 
 # 4. 大数据
+
+类别 | - | - | -
+--- | --- | --- | ---
+大数据 | [大数据架构师应掌握的技能](https://github.com/RunAtWorld/big_data_architect_skills) | 
+
 ## 4.1 Hadoop生态
 1. Hadoop
 1. Hive
