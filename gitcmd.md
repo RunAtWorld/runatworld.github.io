@@ -166,18 +166,6 @@ git push origin :refs/tags/v1.0.0  #删除github远端的指定tag
 git push origin --delete v1.0.0 
 ```
 
-### git reset
-```
-git reset --mixed <指定版本HASH> #不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
-                               #这个是默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
-git reset --soft <指定版本HASH> #不删除工作空间改动代码，撤销commit，不撤销git add .
-git reset --hard <指定版本HASH> #删除工作空间改动代码，撤销commit，撤销git add . ，恢复到了上一次的commit状态
-
-git reset --soft HEAD^  #撤销commit
-git reset --soft HEAD~1 #撤销前1次commit
-git reset --soft HEAD~2  #撤销前2次commit
-```
-
 ### 查看状态与日志
 1. 查看状态
 ```
@@ -205,6 +193,19 @@ git clean 参数
     -df 删除 文件 和 目录
 #恢复到上一次提交前
 git checkout . && git clean -xdf
+```
+
+
+###  本地仓库重置
+```
+git reset --mixed <指定版本HASH> #不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+                               #这个是默认参数,git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的。
+git reset --soft <指定版本HASH> #不删除工作空间改动代码，撤销commit，不撤销git add .
+git reset --hard <指定版本HASH> #删除工作空间改动代码，撤销commit，撤销git add . ，恢复到了上一次的commit状态
+
+git reset --soft HEAD^  #撤销commit
+git reset --soft HEAD~1 #撤销前1次commit
+git reset --soft HEAD~2  #撤销前2次commit
 ```
 
 ### 撤销/回滚 revert 
@@ -240,6 +241,15 @@ git git revert merge_commit_id -m 1
 这是因为revert的那个commit是一个merge commit，它有两个parent, Git不知道base是选哪个parent，就没法diff,所以你要显示告诉Git用哪一个parent。
 一般来说，如果在 master 上 merge dev_branch, 那么parent 1 就是 master ，parent 2 就是 dev_branch
 
+### 补丁/patch
+1. 生成patch文件:
+```
+git format-patch <old-commit-sha>...<new-commit-sha> -o <patch-file-dir>
+```
+如:
+```
+git format-patch 0f500e44965c2ed502b1d35b6d4d3926ac449c05...d37885d260bb228f00739c1bceea888a8841d48b -o ~/temp_patch/
+```
 
 # Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./1352126739_7909.jpg) <br>  
