@@ -34,6 +34,8 @@ git pull origin dev:master #拉取远程dev分支与本地master分支合并
 ```
 git add .  #添加当前文件夹下所有文件到下一次提交,并被跟踪   
 git commit -m "abc" #带信息"abc"提交一次变化到本地仓库   
+git commit -n       #不带信息提交
+git commit --no-commit   #不带信息提交
 git push    #提交本地文件到远程仓库
 ```
 
@@ -204,6 +206,40 @@ git clean 参数
 #恢复到上一次提交前
 git checkout . && git clean -xdf
 ```
+
+### 撤销/回滚 revert 
+#### 单个 commit 撤销
+git revert 撤销某次操作，此次操作之前和之后的commit和history都会保留，并且把这次撤销，作为一次最新的提交。git revert提交一个新的版本，将revert的版本的内容再反向修改回去，版本会递增，不影响之前提交的内容.
+```
+git revert HEAD          #撤销前一次 commit
+git revert HEAD^         #撤销前前一次 commit    
+git revert commit_id  #（比如:fa042ce57ebbe5bb9c8db709f719cec2c58ee7ff）
+```
+
+#### 多个 commit 撤销
+##### 连续
+
+```
+git revert -n commit_id_start..commit_id_end #提交撤回到commit_id_start的位置
+```
+
+##### 不连续
+撤回到commit_id_1和commit_id_3的提交
+
+```
+git revert -n commit_id_1
+git revert -n commit_id_3
+```
+
+#### 撤销 merge
+由于 merge 是两个分支 多个commit 合并在一个 commit中，因此撤销 merge 需要告诉系统使用哪个 branch
+```
+git git revert merge_commit_id -m 1
+```
+如果不用 `-m` 参数将会出现错误 `is a merge but no -m option was given`
+这是因为revert的那个commit是一个merge commit，它有两个parent, Git不知道base是选哪个parent，就没法diff,所以你要显示告诉Git用哪一个parent。
+一般来说，如果在 master 上 merge dev_branch, 那么parent 1 就是 master ，parent 2 就是 dev_branch
+
 
 # Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./1352126739_7909.jpg) <br>  
