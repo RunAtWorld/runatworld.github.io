@@ -71,9 +71,10 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 ### 2.4 面试相关
 
 类别 | - | - | -
- --- | --- | --- | ---
+--- | --- | --- | ---
+笔试 | [写简历](https://github.com/RunAtWorld/resume-1)
 技术面 | [`sre/ops` 技术面试](./interview/sre.md)
-hr | [hr面试](./interview/hr.md)
+hr | [hr面试](./interview/hr.md) 
 
 # 3. 云计算
 1. Docker与Kubernetes
