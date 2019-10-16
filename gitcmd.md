@@ -251,6 +251,48 @@ git format-patch <old-commit-sha>...<new-commit-sha> -o <patch-file-dir>
 git format-patch 0f500e44965c2ed502b1d35b6d4d3926ac449c05...d37885d260bb228f00739c1bceea888a8841d48b -o ~/temp_patch/
 ```
 
+生成文件/Users/stone/temp_patch/0001-add-content-to-bb.c.patch
+查看 `git log` 或 `git log -p` (有详细的更改内容)
+
+2. 测试patch文件:
+
+检查patch文件
+```
+git apply --stat ~/temp_patch/0001-add-content-to-bb.c.patch
+```
+
+查看是否能应用成功
+```
+git apply --check ~/temp_patch/0001-add-content-to-bb.c.patch
+```
+
+3. 应用patch文件
+```
+git am -s < ~/temp_patch/0001-add-content-to-bb.c.patch
+```
+
+### cherry-pick/重演commit
+基于release-2.0分支新建分支release-2.1, 并且到新创建的分支上
+```
+git checkout -b release-2.1 release-2.0
+```
+
+将dev-3.0分支上的某些commit在release-2.1分支上重演
+```
+git cherry-pick {dev-3.0分支的某些commit-hash}
+```
+如
+```
+git cherry-pick  
+20c2f506d789bb9f041050dc2c1e954fa3fb6910 
+2633961a16b0dda7b767b9264662223a2874dfa9 
+5d5929eafd1b03fd4e7b6aa15a6c571fbcb3ceb4  
+```
+多个commit-hash使用空格分割, commit-hash最好按提交时间先后排列, 即最先提交的commit放在前面.
+
+> patch和cherry-pick的功能都是重用commit,功效几乎一样, 但是cherry-pick更为简单.
+
+
 # Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./1352126739_7909.jpg) <br>  
 **工作区**：就是你在电脑里能看到的目录。<br>
