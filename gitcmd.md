@@ -242,6 +242,8 @@ git git revert merge_commit_id -m 1
 一般来说，如果在 master 上 merge dev_branch, 那么parent 1 就是 master ，parent 2 就是 dev_branch
 
 ### 补丁/patch
+> patch和cherry-pick的功能都是重用commit,功效几乎一样, 但是cherry-pick更为简单.
+
 1. 生成patch文件:
 ```
 git format-patch <old-commit-sha>...<new-commit-sha> -o <patch-file-dir>
@@ -253,6 +255,12 @@ git format-patch 0f500e44965c2e1d3449c05...d37885d260bb228f0a8841d48b -o ~/temp_
 
 生成文件/Users/stone/temp_patch/0001-add-content-to-bb.c.patch
 查看 `git log` 或 `git log -p` (有详细的更改内容)
+
+```
+git format-patch commit_id -N #表示生成对应id的commit
+git format-patch commit_id #表示从某个id开始所有的commit
+git format-patch commit_start...commit_end #表示从start到end
+```
 
 2. 测试patch文件:
 
@@ -270,6 +278,9 @@ git apply --check ~/temp_patch/0001-add-content-to-bb.c.patch
 ```
 git am -s < ~/temp_patch/0001-add-content-to-bb.c.patch
 ```
+
+使用 `git apply`  一个patch 会直接把对应的changed修改到对应的文件上，需要重新进行一个commit进行添加，这样的操作会导致 patch 的commit丢失。
+使用 `git am` 一个patch 会保留commit。**apply中有冲突时对应patch的commit是无法保留的。**
 
 ### cherry-pick/重演commit
 基于release-2.0分支新建分支release-2.1, 并且到新创建的分支上
@@ -289,9 +300,6 @@ git cherry-pick
 5d5929eafd1b03fd4e7b6aa15a6c571fbcb3ceb4  
 ```
 多个commit-hash使用空格分割, commit-hash最好按提交时间先后排列, 即最先提交的commit放在前面.
-
-> patch和cherry-pick的功能都是重用commit,功效几乎一样, 但是cherry-pick更为简单.
-
 
 # Git各个状态之间转换指令总结   
 ![Git各个状态之间转换指令总结](./1352126739_7909.jpg) <br>  
