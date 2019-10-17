@@ -56,6 +56,7 @@ git branch	#查看当前分支
 git branch dev	#创建dev分支   
 git checkout dev	#切换到一个分支dev 
 git checkout -b dev	#创建并切换到分支dev
+git branch -m old_name new_name #本地分支重命名
 ```
 
 1. 删除分支
