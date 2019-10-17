@@ -409,6 +409,8 @@ ifnull(oracle, nvl) #如果 oracle 字段为 null , 设置为 nvl
     - 减 `DATE_SUB(CURDATE(),INTERVAL 3 MONTH)`
     - 加 `DATE_ADD(CURDATE(),INTERVAL 3 MONTH)`
 
+
+## 细节专栏
 ### DISTINCT
 1. 作用于单列
 
