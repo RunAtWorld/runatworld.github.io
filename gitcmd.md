@@ -109,6 +109,7 @@ git stash apply stash_1	#回到原来某个工作状态stash_1，恢复之前的
 git stash drop stash_1 #删除stash_1储藏
 git stash pop stash_1 #弹出stash_1,回到原来某个工作状态stash_1,不删除stash_1
 git stash branch testchanges #从储藏中创建分支testchanges,检出你储藏工作时的所处的提交，重新应用你的工作，如果成功，将会丢弃储藏
+git stash clear # 清空所有储藏
 ```
 
 ### 合并: merge/rebase
