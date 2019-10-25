@@ -1,4 +1,6 @@
-## pom.xml常用元素介绍
+pom.xml 介绍
+
+## 常用元素介绍
 
 ```
 project 包含pom一些约束的信息 
@@ -49,3 +51,7 @@ maven 中三种classpath : 编译，测试，运行
 3. runtime：在测试和运行时有效 
 4. test:只在测试时有效 
 5. system:在编译和测试时有效，与本机系统关联，可移植性差
+
+
+## 参考
+1. [maven scope 'provided' 和 ‘compile’的区别](https://www.cnblogs.com/hubavyn/p/8087143.html)
