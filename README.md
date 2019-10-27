@@ -168,8 +168,10 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 类别 | - | - | -
 --- | --- | --- | ---
-出现 | [12306](https://github.com/RunAtWorld/12306)
+出行 | [12306](https://github.com/RunAtWorld/12306)
 买卖 | [房价预测](https://github.com/RunAtWorld/HousePricing) | [如何买房](https://github.com/houshanren/hangzhou_house_knowledge)
+
+3. [程序员职业病](./others/程序员职业病.md)
 
 ---------------------------
 [`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
