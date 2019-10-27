@@ -40,7 +40,7 @@ acm | [ACM-Code](https://github.com/RunAtWorld/ACM-Code)
 mysql | [Mysql](./dev/mysql/)
 
 #### 1.6 前端
- 
+
  类别 | - 
 --- | --- 
 教程 | [前端教程](https://github.com/hbulpf/Web)
@@ -79,7 +79,7 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 开发工具 | [IdeaJ](devtools/Idea.md)
 版本控制 | [Git](gitcmd.md) | [SVN](svn_cmd.md)	
 文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
-  
+
 ### 2.3 效率提升利器
 
 类别 | - | - | -
@@ -163,6 +163,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 5. [MLBooks](https://github.com/hbulpf/MLBooks)
 
 ## 6.3 其他
+
 1. [问问题的礼仪](manners/How-To-Ask-Questions-The-Smart-Way.md)
 2. 生活
 
