@@ -243,7 +243,7 @@ git revert -n commit_id_3
 #### 撤销 merge
 由于 merge 是两个分支 多个commit 合并在一个 commit中，因此撤销 merge 需要告诉系统使用哪个 branch
 ```
-git git revert merge_commit_id -m 1
+git revert merge_commit_id -m 1
 ```
 如果不用 `-m` 参数将会出现错误 `is a merge but no -m option was given`
 这是因为revert的那个commit是一个merge commit，它有两个parent, Git不知道base是选哪个parent，就没法diff,所以你要显示告诉Git用哪一个parent。
