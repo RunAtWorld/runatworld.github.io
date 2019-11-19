@@ -64,7 +64,7 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 
 + 版本控制&团队协作
 	- [svn 常用指令](./svn_cmd.md)
-	- [git 常用指令](./gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
+	- [git 常用指令](./tools/git/gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 	
 + [开发技术与框架](dev/)
 	- [Java 开发](./dev/java/)
