@@ -77,7 +77,7 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
  --- | --- | --- | ---
 接口设计 |  [swagger](./tools/swagger/README.md)
 开发工具 | [IdeaJ](devtools/Idea.md)
-版本控制 | [Git](gitcmd.md) | [SVN](svn_cmd.md)	
+版本控制 | [Git](./tools/git/gitcmd.md) | [SVN](svn_cmd.md)	
 文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
 
 ### 2.3 效率提升利器
