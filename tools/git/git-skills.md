@@ -59,3 +59,11 @@ windows 进入 `C:\Windows\System32\drivers\etc` 目录， 在 `hosts` 最后加
 151.101.184.133    avatars8.githubusercontent.com
 # GitHub End
 ```
+
+# 常见的 基于 git 的网站
+
+网站 | 国家 |
+--- | --- |
+[github](https://github.com) | 美国
+[gitlab](https://gitlab.com)  | 美国
+[gitee](https://gitee.com/)  | 中国大陆
