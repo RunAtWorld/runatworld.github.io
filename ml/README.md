@@ -199,6 +199,9 @@ TensorFlow的分布式培训框架
     + 链接 : https://github.com/andabi/deep-voice-conversion?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
 
 
+# 5. 一站式AI平台
+
+1. [百度飞桨](https://aistudio.baidu.com)
 
 # 参考
 1. 9个机器学习开源项目 . https://blog.csdn.net/tMb8Z9Vdm66wH68VX1/article/details/79765391
