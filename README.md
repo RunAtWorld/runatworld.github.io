@@ -142,10 +142,10 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 镜像源           | -
 ------------    | -------------
-[网易开源镜像站](http://mirrors.163.com)
-[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn)
-[中科大开源软件镜像站](http://mirrors.ustc.edu.cn/)
-[阿里巴巴开源软件镜像站](http://mirrors.aliyun.com/)
+[网易开源镜像站](http://mirrors.163.com)  | 
+[清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn) | 
+[中科大开源软件镜像站](http://mirrors.ustc.edu.cn/)  | 
+[阿里巴巴开源软件镜像站](http://mirrors.aliyun.com/)  | 
 
  [更多开源镜像资源...](./mirrors.md)
 

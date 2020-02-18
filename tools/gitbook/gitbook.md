@@ -23,6 +23,10 @@
     以上访问 http://localhost:4000 可看到效果。
     另一种预览方式，运行 `gitbook build` 命令会在书籍的文件夹中生成一个 _book 文件夹, 里面的内容即为生成的 html 文件,这可以只生成网页而不开启服务器。
 
+    如需指定端口
+    ```
+    gitbook serve --port=8081
+    ```
 # GitBook 文件说明
 
 + SUMMARY.md : 定制书籍的章节结构和顺序。
