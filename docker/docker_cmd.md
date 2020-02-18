@@ -48,7 +48,7 @@
 	docker images -f since=mongo:3.2 #使用过滤器来列出虚悬镜像,看到在 mongo:3.2 之后建立的镜像
 	docker images -f before=mongo:3.2 #使用过滤器来列出虚悬镜像,看到在 mongo:3.2 之前建立的镜像
 	docker images -f label=com.example.version=0.1  #通过 LABEL 来过滤
-	docker images --format "{{.ID}}: {{.Repository}}"      #以指定格式列出镜像ID和仓库名
+	# docker images --format "{{.ID}}: {{.Repository}}"      #以指定格式列出镜像ID和仓库名
 	docker pull [选项] [Docker Registry地址]<仓库名>:<标签>  #从 Docker Registry 获取镜像
 	```
   
