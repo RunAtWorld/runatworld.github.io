@@ -32,7 +32,8 @@
         "summary", 
         "toggle-chapters", 
         "theme-comscore",
-        "-lunr", "-search", "search-plus"
+        "-lunr", "-search", "search-plus",
+        "sitemap-general"
     ],
     "pluginsConfig": {
         "github": {
@@ -47,6 +48,9 @@
                 "count": true
                 }
             ]
+        },
+        "sitemap-general": {
+            "prefix": "http://hw1.hnbdata.cn/"
         },
         "donate": {
             "alipay": "./source/images/donate.png",
