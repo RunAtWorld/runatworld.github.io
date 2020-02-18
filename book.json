@@ -10,11 +10,6 @@
     "structure": {
         "readme": "README.md"
     },
-    "links": {
-        "sidebar": {
-            "开发手册": "https://runatworld.gitbook.io"
-        }
-    },
     "theme-default": {
         "showLevel": true
     },
