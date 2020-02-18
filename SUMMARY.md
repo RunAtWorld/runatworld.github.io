@@ -11,6 +11,9 @@
         - [mysql实现主从同步](dev/db/mysql/mysql主从同步.md)
         - [mysql 正则表达式](dev/db/mysql/regex.md)
         - [基本操作](dev/db/mysql/sql_cmd.md)
+- [docker](dev/docker/README.md)
+
+    - [Docker 常见命令](dev/docker/docker_cmd.md)
 - [java](dev/java/README.md)
 
     - [logback](dev/java/logback/README.md)
@@ -22,37 +25,23 @@
         - [mavencmd.md](dev/java/maven/mavencmd.md)
     - [mybatis.md](dev/java/mybatis.md)
     - [springtest.md](dev/java/springtest.md)
+- [ml]()
+    - [机器学习仓库](dev/ml/ai_source.md)
+    - [最流行的模型：BERT, vid2vid 和 graph](dev/ml/hot_2018.md)
+- [svn 常用命令](dev/svn_cmd.md)
 - [webui](dev/webui/README.md)
 
     - [node 的包结构](dev/webui/node.md)
     - [安装Node js](dev/webui/nodejs_install.md)
-
-## devtools
-
-- [Idea.md](devtools/Idea.md)
-- [最常用](devtools/IdeaJ_keyshouts.md)
-- [后台Java](devtools/IdeaJ_plugin.md)
-
-## docker
-
-- [Docker 常见命令](docker/docker_cmd.md)
+- [windows Dos常用命令](dev/winDos.md)
 - [interview](interview/README.md)
 
 - [hr.md](interview/hr.md)
 - [SRE面试题](interview/sre.md)
-- [todo.md](interview/todo.md)
-
-## manners
-
-- [提问的智慧](manners/How-To-Ask-Questions-The-Smart-Way.md)
-
-## ml
-
-- [机器学习仓库](ml/ai_source.md)
-- [最流行的模型：BERT, vid2vid 和 graph](ml/hot_2018.md)
 
 ## others
 
+- [提问的智慧](others/How-To-Ask-Questions-The-Smart-Way.md)
 - [习惯总结.md](others/习惯总结.md)
 - [程序员常见职业病列表](others/程序员职业病.md)
 
@@ -62,6 +51,11 @@
 
 ## tools
 
+- [IDEAJ](tools/IDEAJ/README.md)
+
+    - [Idea.md](tools/IDEAJ/Idea.md)
+    - [最常用](tools/IDEAJ/IdeaJ_keyshouts.md)
+    - [后台Java](tools/IDEAJ/IdeaJ_plugin.md)
 - [git](tools/git/README.md)
 
     - [git 技巧](tools/git/git-skills.md)
@@ -74,9 +68,7 @@
 
     - [Markdown 简明语法手册](tools/markdown/markdown.md)
     - [vscode_markdown.md](tools/markdown/vscode_markdown.md)
-- [painting](tools/painting/README.md)
-
+- [绘图工具](tools/painting.md)
 - [swagger](tools/swagger/README.md)
 
     - [swagger 介绍](tools/swagger/swagger.md)
-- [windows](windows/README.md)
