@@ -1,39 +1,6 @@
 
-## source
 
-- [images]()
-
-## 其他
-
-- [提问的智慧](其他/How-To-Ask-Questions-The-Smart-Way.md)
-- [习惯总结.md](其他/习惯总结.md)
-- [程序员常见职业病列表](其他/程序员职业病.md)
-
-## 工具
-
-- [IDEAJ](工具/IDEAJ/README.md)
-
-    - [Idea.md](工具/IDEAJ/Idea.md)
-    - [最常用](工具/IDEAJ/IdeaJ_keyshouts.md)
-    - [后台Java](工具/IDEAJ/IdeaJ_plugin.md)
-- [git](工具/git/README.md)
-
-    - [git 技巧](工具/git/git-skills.md)
-    - [Git常用操作](工具/git/gitcmd.md)
-- [gitbook](工具/gitbook/README.md)
-
-    - [安装 GitBook](工具/gitbook/gitbook.md)
-    - [输出PDF](工具/gitbook/gitbook_pdf.md)
-- [markdown](工具/markdown/README.md)
-
-    - [Markdown 简明语法手册](工具/markdown/markdown.md)
-    - [vscode_markdown.md](工具/markdown/vscode_markdown.md)
-- [绘图工具](工具/painting.md)
-- [swagger](工具/swagger/README.md)
-
-    - [swagger 介绍](工具/swagger/swagger.md)
-
-## 开发
+# 开发
 
 - [db](开发/db/README.md)
 
@@ -68,7 +35,38 @@
     - [node 的包结构](开发/webui/node.md)
     - [安装Node js](开发/webui/nodejs_install.md)
 - [windows Dos常用命令](开发/winDos.md)
-- [面试](面试/README.md)
+
+
+# 工具
+
+### [IDEAJ](工具/IDEAJ/README.md)
+
+    - [Idea.md](工具/IDEAJ/Idea.md)
+    - [最常用](工具/IDEAJ/IdeaJ_keyshouts.md)
+    - [后台Java](工具/IDEAJ/IdeaJ_plugin.md)
+### [git](工具/git/README.md)
+
+    - [git 技巧](工具/git/git-skills.md)
+    - [Git常用操作](工具/git/gitcmd.md)
+### [gitbook](工具/gitbook/README.md)
+
+    - [安装 GitBook](工具/gitbook/gitbook.md)
+    - [输出PDF](工具/gitbook/gitbook_pdf.md)
+### [markdown](工具/markdown/README.md)
+
+    - [Markdown 简明语法手册](工具/markdown/markdown.md)
+    - [vscode_markdown.md](工具/markdown/vscode_markdown.md)
+### [绘图工具](工具/painting.md)
+### [swagger](工具/swagger/README.md)
+    - [swagger 介绍](工具/swagger/swagger.md)
+
+# 面试
 
 - [hr.md](面试/hr.md)
 - [SRE面试题](面试/sre.md)
+
+# 其他
+
+- [提问的智慧](其他/How-To-Ask-Questions-The-Smart-Way.md)
+- [习惯总结.md](其他/习惯总结.md)
+- [程序员常见职业病列表](其他/程序员职业病.md)
