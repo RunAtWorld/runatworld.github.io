@@ -6,7 +6,7 @@
 
 ## 开发
 
-- [db](开发/db/README.md)
+- [数据库](开发/db/README.md)
 
     - [mysql](开发/db/mysql/README.md)
 
@@ -35,7 +35,7 @@
     - [机器学习仓库](开发/ml/ai_source.md)
     - [最流行的模型：BERT, vid2vid 和 graph](开发/ml/hot_2018.md)
 - [svn 常用命令](开发/svn_cmd.md)
-- [webui](开发/webui/README.md)
+- [前端](开发/webui/README.md)
 
     - [node 的包结构](开发/webui/node.md)
     - [安装Node js](开发/webui/nodejs_install.md)
