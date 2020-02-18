@@ -37,7 +37,7 @@ acm | [ACM-Code](https://github.com/RunAtWorld/ACM-Code)
 
  类别 | - 
 --- | --- 
-mysql | [Mysql](./dev/mysql/)
+mysql | [Mysql](./开发/mysql/)
 
 #### 1.6 前端
 
@@ -58,27 +58,27 @@ Quant | [EliteQuant](https://github.com/RunAtWorld/EliteQuant)
 OS | - | - |  - | - |  -
 --- | --- | --- | --- | --- | --- 
 Linux | [Linux 命令与应用](https://github.com/hbulpf/LinuxFun) | [Linux服务器运维脚本](https://github.com/hbulpf/ServerOps) | [shell](https://github.com/RunAtWorld/shell) | [the-art-of-command-line](https://github.com/RunAtWorld/the-art-of-command-line)
-Windows | [Windows 常用命令](./windows/windows_cmd.md)
+Windows | [Windows 常用命令](./开发/winDos.md)
 
 ### 2.2 开发相关
 
 + 版本控制&团队协作
-	- [svn 常用指令](./svn_cmd.md)
-	- [git 常用指令](./tools/git/gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
+	- [svn 常用指令](./开发/svn_cmd.md)
+	- [git 常用指令](./工具/git/gitcmd.md)  /  [git 官方中文教程](https://git-scm.com/book/zh/v2) 
 	
-+ [开发技术与框架](dev/)
-	- [Java 开发](./dev/java/)
-		+ [maven 命令](./dev/java/maven/mavencmd.md) / [maven仓库配置](./dev/java/maven/maven_setting.xml)
-		+ 日志: [logback](./dev/java/logback/logback.md)
++ [开发技术与框架](开发/)
+	- [Java 开发](./开发/java/)
+		+ [maven 命令](./开发/java/maven/mavencmd.md) / [maven仓库配置](./开发/java/maven/maven_setting.xml)
+		+ 日志: [logback](./开发/java/logback/logback.md)
 
 + 开发人员工具
 
 用途 | - | - | -
  --- | --- | --- | ---
-接口设计 |  [swagger](./tools/swagger/README.md)
-开发工具 | [IdeaJ](devtools/Idea.md)
-版本控制 | [Git](./tools/git/gitcmd.md) | [SVN](svn_cmd.md)	
-文档写作 | [Markdown](tools/markdown/markdown.md) | [GitBook](tools/gitbook/gitbook.md) | [绘图工具](tools/painting/painting.md)
+接口设计 |  [swagger](./工具/swagger/README.md)
+开发工具 | [IdeaJ](工具/IDEAJ/Idea.md)
+版本控制 | [Git](./工具/git/gitcmd.md) | [SVN](./开发svn_cmd.md)	
+文档写作 | [Markdown](工具/markdown/markdown.md) | [GitBook](工具/gitbook/gitbook.md) | [绘图工具](工具/painting/painting.md)
 
 ### 2.3 效率提升利器
 
@@ -94,8 +94,8 @@ Windows | [Windows 常用命令](./windows/windows_cmd.md)
 类别 | - | - | -
 --- | --- | --- | ---
 笔试 | [写简历](https://github.com/RunAtWorld/resume-1)
-技术面 | [秋招笔记](https://github.com/RunAtWorld/Interview-Notebook) | [`sre/ops` 技术面试](./interview/sre.md)
-hr | [hr面试](./interview/hr.md) 
+技术面 | [秋招笔记](https://github.com/RunAtWorld/Interview-Notebook) | [`sre/ops` 技术面试](./面试/sre.md)
+hr | [hr面试](./面试/hr.md) 
 
 # 3. 云计算
 1. Docker与Kubernetes
@@ -152,19 +152,18 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 
 ## 6.2 进阶之路
 1. [重点看的书](./BookList.md)
-2. [正在学习](./interview/todo.md) 
-3. 大学的课程
+2. 大学的课程
    - [中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course)
    - [上海交通大学课程资料分享](https://github.com/CoolPhilChen/SJTU-Courses/)
    - [清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)
    - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
    - [北京大学课程资料整理](https://github.com/lib-pku/libpku)
-4. [apachecn](https://github.com/apachecn/home)
-5. [MLBooks](https://github.com/hbulpf/MLBooks)
+3. [apachecn](https://github.com/apachecn/home)
+4. [MLBooks](https://github.com/hbulpf/MLBooks)
 
 ## 6.3 其他
 
-1. [问问题的礼仪](manners/How-To-Ask-Questions-The-Smart-Way.md)
+1. [问问题的礼仪](其他/How-To-Ask-Questions-The-Smart-Way.md)
 2. 生活
 
 类别 | - | - | -
@@ -172,7 +171,7 @@ K8S | [K8S 入门](https://github.com/RunAtWorld/k8spath) | [基于容器的弹�
 出行 | [12306](https://github.com/RunAtWorld/12306)
 买卖 | [房价预测](https://github.com/RunAtWorld/HousePricing) | [如何买房](https://github.com/houshanren/hangzhou_house_knowledge)
 
-3. [程序员职业病](./others/程序员职业病.md)
+3. [程序员职业病](./其他/程序员职业病.md)
 
 ---------------------------
 [`@RunAtWorld的csdn`](https://blog.csdn.net/RunAtWorld)    [`@RunAtWorld的github`](https://github.com/RunAtWorld)
