@@ -1,6 +1,6 @@
 # 安装 GitBook
 
-1. [安装 nodejs](../dev/webui/nodejs.md)
+1. [安装 nodejs](../../dev/webui/nodejs_install.md)
 
 1. 安装 gitbook-cli
     ```
