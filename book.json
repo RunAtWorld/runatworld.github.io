@@ -31,7 +31,8 @@
         "favicon",
         "summary", 
         "toggle-chapters", 
-        "theme-comscore"
+        "theme-comscore",
+        "-lunr", "-search", "search-plus"
     ],
     "pluginsConfig": {
         "github": {
