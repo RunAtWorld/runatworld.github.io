@@ -1,36 +1,36 @@
+- [dev](dev/README.md)
 
-## dev
+- [db](dev/db/README.md)
 
-- [db](dev/db/)
-    - [mysql](dev/db/mysql)
+    - [mysql]()
         - [centos7忘记mysql的密码](dev/db/mysql/centos7忘记mysql密码.md)
         - [functions.md](dev/db/mysql/functions.md)
         - [性能监控](dev/db/mysql/mysql.md)
         - [mysql实现主从同步](dev/db/mysql/mysql主从同步.md)
         - [mysql 正则表达式](dev/db/mysql/regex.md)
         - [基本操作](dev/db/mysql/sql_cmd.md)
-- [java]()
-    - [logback]()
+- [java](dev/java/README.md)
+
+    - [logback](dev/java/logback/README.md)
+
         - [logback 介绍](dev/java/logback/logback.md)
-    - [maven]()
+    - [maven](dev/java/maven/README.md)
+
         - [常用元素介绍](dev/java/maven/maven_pom.md)
         - [mavencmd.md](dev/java/maven/mavencmd.md)
     - [mybatis.md](dev/java/mybatis.md)
     - [springtest.md](dev/java/springtest.md)
 - [webui]()
     - [nodejs.md](dev/webui/nodejs.md)
-
-## devtools
+- [devtools](devtools/README.md)
 
 - [Idea.md](devtools/Idea.md)
 - [最常用](devtools/IdeaJ_keyshouts.md)
 - [后台Java](devtools/IdeaJ_plugin.md)
-
-## docker
+- [docker](docker/README.md)
 
 - [Docker 常见命令](docker/docker_cmd.md)
-
-## interview
+- [interview](interview/README.md)
 
 - [hr.md](interview/hr.md)
 - [SRE面试题](interview/sre.md)
@@ -42,17 +42,14 @@
 - [ml](ml/README.md)
 
 - [最流行的模型：BERT, vid2vid 和 graph](ml/hot_2018.md)
-
-## others
+- [others](others/README.md)
 
 - [习惯总结.md](others/习惯总结.md)
 - [程序员常见职业病列表](others/程序员职业病.md)
 
 ## source
 
-- [images]()
-
-## tools
+- [tools](tools/README.md)
 
 - [git]()
     - [git push 本地不用输入用户名密码](tools/git/git-skills.md)
