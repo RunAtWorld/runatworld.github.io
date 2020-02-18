@@ -24,7 +24,8 @@
     - [springtest.md](dev/java/springtest.md)
 - [webui](dev/webui/README.md)
 
-    - [nodejs.md](dev/webui/nodejs.md)
+    - [node 的包结构](dev/webui/node.md)
+    - [安装Node js](dev/webui/nodejs_install.md)
 
 ## devtools
 
