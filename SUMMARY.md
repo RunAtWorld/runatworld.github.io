@@ -1,7 +1,7 @@
 
 ## dev
 
-- [db](dev/db)
+- [db](dev/db/)
     - [mysql](dev/db/mysql)
         - [centos7忘记mysql的密码](dev/db/mysql/centos7忘记mysql密码.md)
         - [functions.md](dev/db/mysql/functions.md)
