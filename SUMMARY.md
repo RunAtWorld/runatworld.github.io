@@ -60,7 +60,6 @@
 - [gitbook]()
     - [安装 GitBook](tools/gitbook/gitbook.md)
     - [输出PDF](tools/gitbook/gitbook_pdf.md)
-    - [GitBook 插件](tools/gitbook/gitbook_plugins.md)
 - [markdown]()
     - [Markdown 简明语法手册](tools/markdown/markdown.md)
     - [vscode_markdown.md](tools/markdown/vscode_markdown.md)

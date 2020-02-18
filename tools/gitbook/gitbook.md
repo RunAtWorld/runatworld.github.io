@@ -204,7 +204,7 @@ gitbook install
         }
     }
     ```
-[了解更多插件](gitbook_plugins.md)
+[了解更多插件](http://gitbook.zhangjikai.com/plugins.html)
 
 # 与 github 关联
 
