@@ -64,7 +64,8 @@
 
 - [git](tools/git/README.md)
 
-    - [git push 本地不用输入用户名密码](tools/git/git-skills.md)
+    - [git 技巧](tools/git/git-skills.md)
+    - [Git常用操作](tools/git/gitcmd.md)
 - [gitbook](tools/gitbook/README.md)
 
     - [安装 GitBook](tools/gitbook/gitbook.md)
@@ -77,4 +78,5 @@
 
 - [swagger](tools/swagger/README.md)
 
+    - [swagger 介绍](tools/swagger/swagger.md)
 - [windows](windows/README.md)
