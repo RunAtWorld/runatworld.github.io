@@ -1,74 +1,74 @@
 
-## dev
-
-- [db](dev/db/README.md)
-
-    - [mysql](dev/db/mysql/README.md)
-
-        - [centos7忘记mysql的密码](dev/db/mysql/centos7忘记mysql密码.md)
-        - [functions.md](dev/db/mysql/functions.md)
-        - [性能监控](dev/db/mysql/mysql.md)
-        - [mysql实现主从同步](dev/db/mysql/mysql主从同步.md)
-        - [mysql 正则表达式](dev/db/mysql/regex.md)
-        - [基本操作](dev/db/mysql/sql_cmd.md)
-- [docker](dev/docker/README.md)
-
-    - [Docker 常见命令](dev/docker/docker_cmd.md)
-- [java](dev/java/README.md)
-
-    - [logback](dev/java/logback/README.md)
-
-        - [logback 介绍](dev/java/logback/logback.md)
-    - [maven](dev/java/maven/README.md)
-
-        - [pom 介绍](dev/java/maven/maven_pom.md)
-        - [mavencmd.md](dev/java/maven/mavencmd.md)
-    - [mybatis.md](dev/java/mybatis.md)
-    - [springtest.md](dev/java/springtest.md)
-- [ml]()
-    - [机器学习仓库](dev/ml/ai_source.md)
-    - [最流行的模型：BERT, vid2vid 和 graph](dev/ml/hot_2018.md)
-- [svn 常用命令](dev/svn_cmd.md)
-- [webui](dev/webui/README.md)
-
-    - [node 的包结构](dev/webui/node.md)
-    - [安装Node js](dev/webui/nodejs_install.md)
-- [windows Dos常用命令](dev/winDos.md)
-- [interview](interview/README.md)
-
-- [hr.md](interview/hr.md)
-- [SRE面试题](interview/sre.md)
-
-## others
-
-- [提问的智慧](others/How-To-Ask-Questions-The-Smart-Way.md)
-- [习惯总结.md](others/习惯总结.md)
-- [程序员常见职业病列表](others/程序员职业病.md)
-
 ## source
 
 - [images]()
 
-## tools
+## 其他
 
-- [IDEAJ](tools/IDEAJ/README.md)
+- [提问的智慧](其他/How-To-Ask-Questions-The-Smart-Way.md)
+- [习惯总结.md](其他/习惯总结.md)
+- [程序员常见职业病列表](其他/程序员职业病.md)
 
-    - [Idea.md](tools/IDEAJ/Idea.md)
-    - [最常用](tools/IDEAJ/IdeaJ_keyshouts.md)
-    - [后台Java](tools/IDEAJ/IdeaJ_plugin.md)
-- [git](tools/git/README.md)
+## 工具
 
-    - [git 技巧](tools/git/git-skills.md)
-    - [Git常用操作](tools/git/gitcmd.md)
-- [gitbook](tools/gitbook/README.md)
+- [IDEAJ](工具/IDEAJ/README.md)
 
-    - [安装 GitBook](tools/gitbook/gitbook.md)
-    - [输出PDF](tools/gitbook/gitbook_pdf.md)
-- [markdown](tools/markdown/README.md)
+    - [Idea.md](工具/IDEAJ/Idea.md)
+    - [最常用](工具/IDEAJ/IdeaJ_keyshouts.md)
+    - [后台Java](工具/IDEAJ/IdeaJ_plugin.md)
+- [git](工具/git/README.md)
 
-    - [Markdown 简明语法手册](tools/markdown/markdown.md)
-    - [vscode_markdown.md](tools/markdown/vscode_markdown.md)
-- [绘图工具](tools/painting.md)
-- [swagger](tools/swagger/README.md)
+    - [git 技巧](工具/git/git-skills.md)
+    - [Git常用操作](工具/git/gitcmd.md)
+- [gitbook](工具/gitbook/README.md)
 
-    - [swagger 介绍](tools/swagger/swagger.md)
+    - [安装 GitBook](工具/gitbook/gitbook.md)
+    - [输出PDF](工具/gitbook/gitbook_pdf.md)
+- [markdown](工具/markdown/README.md)
+
+    - [Markdown 简明语法手册](工具/markdown/markdown.md)
+    - [vscode_markdown.md](工具/markdown/vscode_markdown.md)
+- [绘图工具](工具/painting.md)
+- [swagger](工具/swagger/README.md)
+
+    - [swagger 介绍](工具/swagger/swagger.md)
+
+## 开发
+
+- [db](开发/db/README.md)
+
+    - [mysql](开发/db/mysql/README.md)
+
+        - [centos7忘记mysql的密码](开发/db/mysql/centos7忘记mysql密码.md)
+        - [functions.md](开发/db/mysql/functions.md)
+        - [性能监控](开发/db/mysql/mysql.md)
+        - [mysql实现主从同步](开发/db/mysql/mysql主从同步.md)
+        - [mysql 正则表达式](开发/db/mysql/regex.md)
+        - [基本操作](开发/db/mysql/sql_cmd.md)
+- [docker](开发/docker/README.md)
+
+    - [Docker 常见命令](开发/docker/docker_cmd.md)
+- [java](开发/java/README.md)
+
+    - [logback](开发/java/logback/README.md)
+
+        - [logback 介绍](开发/java/logback/logback.md)
+    - [maven](开发/java/maven/README.md)
+
+        - [pom 介绍](开发/java/maven/maven_pom.md)
+        - [mavencmd.md](开发/java/maven/mavencmd.md)
+    - [mybatis.md](开发/java/mybatis.md)
+    - [springtest.md](开发/java/springtest.md)
+- [ml]()
+    - [机器学习仓库](开发/ml/ai_source.md)
+    - [最流行的模型：BERT, vid2vid 和 graph](开发/ml/hot_2018.md)
+- [svn 常用命令](开发/svn_cmd.md)
+- [webui](开发/webui/README.md)
+
+    - [node 的包结构](开发/webui/node.md)
+    - [安装Node js](开发/webui/nodejs_install.md)
+- [windows Dos常用命令](开发/winDos.md)
+- [面试](面试/README.md)
+
+- [hr.md](面试/hr.md)
+- [SRE面试题](面试/sre.md)
