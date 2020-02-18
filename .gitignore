@@ -45,3 +45,4 @@ Temporary Items
 # npm
 _book/
 node_modules/
+package-lock.json
