@@ -1,6 +1,6 @@
-机器学习仓库
--------------------
-# 1. 机器学习开源项目
+# 机器学习仓库
+
+## 1. 机器学习开源项目
 * InsightFace  
 	- 基于MXNet的人脸识别开源库 
 	- https://github.com/deepinsight/insightface 
@@ -35,9 +35,9 @@
 	- 用PyTorch实现知识图谱表示
 	- https://github.com/jimmywangheng/knowledge_representation_pytorch
 
-# 2. [2018年最流行的机器学习开源项目](./hot_2018.md)
+## 2. [2018年最流行的机器学习开源项目](./hot_2018.md)
 
-# 3. GAN 开源项目
+## 3. GAN 开源项目
 1. GANDissect [[2]](https://mp.weixin.qq.com/s/OmSb1dl9smyZt_uASOcofQ)  
     只要鼠标划过，GAN 就可以立即在你指定的地方画出云彩、草地、门和树等景物，并直接改变构图以保持图像的合理性
     + 项目地址: [https://github.com/CSAILVision/GANDissect](https://github.com/CSAILVision/GANDissect)
@@ -51,7 +51,7 @@
     + 模型博客文章地址 : https://blog.insightdatascience.com/generating-custom-photo-realistic-faces-using-ai-d170b1b59255
     + 模型的PPT地址 : https://docs.google.com/presentation/d/1OpcYLBVpUF1L-wwPHu_CyKjXqXD0oRwBoGP2peSCrSA/edit#slide=id.p1
 
-# 4. 机器学习开源项目 [[3]](https://mp.weixin.qq.com/s/VjszE7xP5QSjzChn8wZDLw)
+## 4. 机器学习开源项目 [[3]](https://mp.weixin.qq.com/s/VjszE7xP5QSjzChn8wZDLw)
 1. FastText  
 用于快速文本表示和分类的库。基于FastText的一款名为Muse的多语种无监督或有监督的词嵌入  
     + 来自 Facebook Research。
@@ -199,7 +199,7 @@ TensorFlow的分布式培训框架
     + 链接 : https://github.com/andabi/deep-voice-conversion?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
 
 
-# 5. 一站式AI平台
+## 5. 一站式AI平台
 
 1. [百度飞桨](https://aistudio.baidu.com)
 
