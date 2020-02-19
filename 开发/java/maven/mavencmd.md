@@ -1,3 +1,7 @@
+# Maven 常用命令
+
+## maven 命令的格式
+
 maven 命令的格式为 `mvn [plugin-name]:[goal-name]` ，可以接受的参数如下:
 ```
 -D 指定参数，如 -Dmaven.test.skip=true 跳过单元测试；
@@ -8,7 +12,7 @@ maven 命令的格式为 `mvn [plugin-name]:[goal-name]` ，可以接受的参�
 -U 强制去远程更新snapshot的插件或依赖，默认每天只更新一次。
 ```
 
-常用maven命令
+## 常用命令
 ```
 清理maven项目：mvn clean
 验证项目是否正确以及必须的信息是否可用：mvn validate
@@ -51,7 +55,7 @@ maven 打包：mvn package
 只打jar包: mvn jar:jar
 ```
 
-web项目相关命令
+##  web项目相关命令
 ```
 启动tomcat：mvn tomcat:run
 启动jetty：mvn jetty:run
@@ -63,21 +67,20 @@ web项目相关命令
 部署展开的war文件：mvn war:exploded tomcat:exploded
 ```
 
-常见的maven执行顺序
+##  maven执行顺序
 ```
 mvn clean compile
 mvn clean test
 mvn clean package
 mvn clean install
 ```
-实际上，执行test之前会先执行compile的，执行package之前会先执行test，install之前会执行package.
+实际上，执行test之前会先执行compile的，执行package之前会先执行test，install之前会执行package.  
 若直接以某一个phase为goal，将先执行完它之前的phase，如mvn install将会先validate、compile、test、package、integration-test、verify最后再执行install phase。
 
-把项目部署到tomcat下的做法
+## 把项目部署到tomcat下的做法
 ```
-运行打包部署，
-在maven项目目录下：mvn tomcat:deploy
-然后访问：http://localhost:8080/mycontext/ 即可。
+在maven项目目录下： mvn tomcat:deploy
+访问： http://localhost:8080/mycontext/ 即可。
 撤销部署：mvn tomcat:undeploy
 启动web应用：mvn tomcat:start
 停止web应用：mvn tomcat:stop
@@ -85,7 +88,7 @@ mvn clean install
 部署展开的war文件：mvn war:exploded tomcat:exploded
 ```
 
-其他命令
+## 其他命令
 ```
 生成清除Eclipse项目结构：
 mvn eclipse:eclipse
@@ -116,7 +119,7 @@ F:\SoftWare\Maven\MavenWebAppTest>mvn archetype:generate -DgroupId=com.shihuan -
 F:\SoftWare\Maven\MavenWebAppTest>mvn archetype:generate -DgroupId=com.shihuan -DartifactId=S3h3WebWs-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
-处理maven报错
+## 处理maven报错
 ```
 清理maven未下载成功的jar包(在maven仓库下执行)
 for /r %i in (*.lastUpdated) do del %i 

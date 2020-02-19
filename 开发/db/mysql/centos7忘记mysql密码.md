@@ -53,5 +53,3 @@ systemctl start mysqld
 ```
 # 参考
 1. [centos7忘记mysql的密码的解决方法](https://www.2cto.com/database/201809/778139.html)
-
-db#SFYH_2020#
