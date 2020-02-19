@@ -16,10 +16,11 @@
         - [mysql实现主从同步](开发/db/mysql/mysql主从同步.md)
         - [mysql 正则表达式](开发/db/mysql/regex.md)
         - [基本操作](开发/db/mysql/sql_cmd.md)
-- [docker](开发/docker/README.md)
-
+- [常用命令](开发/常用命令/README.md)
+    - [windows Dos常用命令](开发/winDos.md)
     - [Docker 常见命令](开发/docker/docker_cmd.md)
-- [java](开发/java/README.md)
+    - [svn 常用命令](开发/svn_cmd.md)
+- [Java开发](开发/java/README.md)
 
     - [logback](开发/java/logback/README.md)
 
@@ -30,21 +31,21 @@
         - [mavencmd.md](开发/java/maven/mavencmd.md)
     - [mybatis.md](开发/java/mybatis.md)
     - [springtest.md](开发/java/springtest.md)
-- [开源镜像源](开发/mirrors.md)
+
 - [人工智能](开发/ml/README.md)
     - [机器学习资源](开发/ml/ai_source.md)
     - [2018热门AI课题](开发/ml/hot_2018.md)
     - [2019热门AI课题](开发/ml/hot_2019.md)
     - [2020热门AI课题](开发/ml/hot_2020.md)
-- [svn 常用命令](开发/svn_cmd.md)
 - [前端](开发/webui/README.md)
 
     - [node 的包结构](开发/webui/node.md)
     - [安装Node js](开发/webui/nodejs_install.md)
-- [windows Dos常用命令](开发/winDos.md)
+
 
 ## 工具
 
+- [开源镜像源](工具/mirrors.md)
 - [IDEAJ](工具/IDEAJ/README.md)
 
     - [Idea.md](工具/IDEAJ/Idea.md)
