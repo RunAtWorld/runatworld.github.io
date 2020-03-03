@@ -10,4 +10,7 @@
     - [Twitter的分布式自增ID算法snowflake (Java版)](https://www.cnblogs.com/relucent/p/4955340.html)
 6. [Upgrade-ProcessOn](https://github.com/RunAtWorld/Upgrade-ProcessOn)
 7. 轻量级BI工具Superset的搭建与使用 https://www.jianshu.com/p/b02fcea7eb5b
-8. github 工具整理：https://www.runoob.com/w3cnote/github-tools.html
+8. 在Windows下安装使用Kafka: https://www.jianshu.com/p/ce203d4e2f41
+    - Kafka史上最详细原理总结上 https://www.jianshu.com/p/734cf729d77b
+9. 网页实现一个简单的音乐播放器 : https://blog.csdn.net/qq_44210563/article/details/102826406?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
+    - http://music.xiongsihao.com/
