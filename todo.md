@@ -14,4 +14,4 @@
     - Kafka史上最详细原理总结上 https://www.jianshu.com/p/734cf729d77b
 9. 网页实现一个简单的音乐播放器 : https://blog.csdn.net/qq_44210563/article/details/102826406?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
     - http://music.xiongsihao.com/
-10. 五大常用算法：分治、动态规划、贪心、回溯和分支界定 . https://blog.csdn.net/u011956147/article/details/68066304
+10. Spring Boot 最最最常用的注解梳理 : https://mp.weixin.qq.com/s/6wAD7fN1hUjQR-0twvvaTw
