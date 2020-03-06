@@ -145,6 +145,11 @@ $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
 
 访问 [MathJax](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) 参考更多使用方法。
 
+如果无法渲染出公式，使用以下两种方式最简单:
+
+1. 使用 [typora](https://www.typora.io/)
+2. 使用 [vscode ](https://code.visualstudio.com/) +  [Markdown Preview Enhanced插件](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced )
+
 ### 6. 加强的代码块
 
 支持四十一种编程语言的语法高亮的显示，行号显示。
@@ -362,7 +367,7 @@ D-->>A: Dashed open arrow
         - [ ] 准备邮轮上需要携带的物品
         - [ ] 浏览日本免税店的物品
         - [x] 购买蓝宝石公主号七月一日的船票
-        
+
 对应显示如下待办事宜 Todo 列表：
         
 - [ ] **Cmd Markdown 开发**
@@ -377,7 +382,7 @@ D-->>A: Dashed open arrow
     - [ ] 浏览日本免税店的物品
     - [x] 购买蓝宝石公主号七月一日的船票
         
----    
+---
 [^footnote]: 这是一个 *注脚* 的 **文本**。
 
 [^footnote2]: 这是另一个 *注脚* 的 **文本**。
