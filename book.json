@@ -35,8 +35,8 @@
         },
         "github-buttons": {
             "buttons": [{
-                "user": "RunAtWorld",
-                "repo": "https://github.com/hbulpf/devbook",
+                "user": "hbulpf",
+                "repo": "devbook",
                 "type": "star",
                 "size": "small",
                 "count": true
