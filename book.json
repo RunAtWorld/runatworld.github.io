@@ -87,6 +87,9 @@
                 "120x120": "./source/images/apple-touch-icon.jpg",
                 "180x180": "./source/images/apple-touch-icon.jpg"
             }
+        },
+        "mathjax":{
+            "forceSVG": true
         }
     }
 }
