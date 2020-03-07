@@ -26,6 +26,7 @@
         "favicon",
         "toggle-chapters", 
         "theme-comscore",
+        "mathjax",
         "-lunr", "-search", "search-plus",
         "sitemap-general"
     ],
