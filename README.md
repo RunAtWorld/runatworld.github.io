@@ -21,7 +21,7 @@ GOLang | [GoLang入门](https://github.com/RunAtWorld/golang_faq) | [GolangTrain
 
 #### 1.3 Python
 
-类别 | - 
+类别 | 列1
 --- | --- 
 Python | [Python 100 Days](https://github.com/RunAtWorld/Python-100-Days) | [Python常用Sample](https://github.com/RunAtWorld/Python) |
 项目 | [python-spider](https://github.com/RunAtWorld/python-spider) | [知乎爬虫](https://github.com/RunAtWorld/Zhihu_bigdata)
