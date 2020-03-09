@@ -27,6 +27,7 @@ Python | [Python 100 Days](https://github.com/RunAtWorld/Python-100-Days) | [Pyt
 项目 | [python-spider](https://github.com/RunAtWorld/python-spider) | [知乎爬虫](https://github.com/RunAtWorld/Zhihu_bigdata)
 
 #### 1.4 算法
+
  类别 | 列1 | 列2 
 --- | ---  | --
 算法 | [各种语言的各种算法](https://github.com/TheAlgorithms) | [javascript-algorithms](https://github.com/RunAtWorld/javascript-algorithms)
@@ -47,6 +48,7 @@ mysql | [Mysql](./开发/mysql/)
 vue | [vue-demo](https://github.com/RunAtWorld/vue-demo) 
 
 #### 1.7 其他
+
  类别 | 列1 | 列2 | 列3 
 --- | --- | --- | --- 
 IOT | [物联网入门](https://github.com/RunAtWorld/IoT-Firstep)| [awesome-iot](https://github.com/phodal/awesome-iot)| [iot最小系统](https://github.com/RunAtWorld/iot) | 
