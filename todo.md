@@ -17,3 +17,6 @@
 10. Spring Boot 最最最常用的注解梳理 : https://mp.weixin.qq.com/s/6wAD7fN1hUjQR-0twvvaTw
 11. 安全
     - [360旗下安全客](https://www.anquanke.com/)
+12.资本
+    - [雪球网](https://xueqiu.com/)
+    - [巨潮资讯](http://www.cninfo.com.cn/)
